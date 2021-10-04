@@ -1,0 +1,8 @@
+.btt-cor {
+    list-style: square inside red;
+}
+
+li {
+    border: solid red 1px;
+    padding: -8px;
+}

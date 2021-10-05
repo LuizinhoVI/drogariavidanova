@@ -10,7 +10,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 
 .w3-sidebar {
@@ -19,6 +20,25 @@ h6 {
     top: 43px;
     bottom: 0;
     height: inherit;
+}
+
+#barra-inicial {
+    background: rgb(55, 184, 55);
+}
+
+#logo {
+    position: relative;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#main {
+    margin-left: 300px;
+}
+
+#mySidebar {
+    top: 50px;
 }
 
 

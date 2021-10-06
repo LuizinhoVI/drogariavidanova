@@ -1,36 +1,57 @@
-.btt-cor {
-    list-style: square inside red;
-}
-
-.tema {
-    margin-bottom: 50px;
-}
-
-li {
-    padding: -8px;
-    border-radius: 15px;
-}
-
-.remedio {
-    padding: 10px;
-    border: solid red 1px;
-    text-align: center;
-}
-
-.remedio>img {
-    width: 100%;
-}
-
-#all-remedio {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    /* grid-template-rows: auto; */
-    border: solid red 1px;
-    justify-content: center;
-    /* grid-gap: 5px; */
-}
-
-.cliki {
-    cursor: pointer;
-}
+    .btt-cor {
+        list-style: square inside red;
+    }
+    
+    .tema {
+        margin-bottom: 50px;
+    }
+    
+    li {
+        padding: -8px;
+        border-radius: 15px;
+    }
+    
+    .remedio {
+        padding: 10px;
+        border: solid red 1px;
+        text-align: center;
+    }
+    
+    .remedio>img {
+        width: 100%;
+    }
+    
+    #all-remedio {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        /* grid-template-rows: auto; */
+        border: solid red 1px;
+        justify-content: center;
+        /* grid-gap: 5px; */
+    }
+    
+    .click:hover {
+        background-color: rgb(9, 45, 110);
+        box-shadow: 0px 0px 10px 0px blue;
+        color: rgb(255, 255, 255);
+    }
+    
+    .click {
+        cursor: pointer;
+        border: solid rgb(0, 0, 0) 3px;
+        border-radius: 40px;
+        padding: 10px;
+    }
+    
+    .click-1:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 2px 0px green;
+        padding: 5px;
+        width: 90%;
+    }
+    
+    ul>div {
+        position: relative;
+        top: 15px;
+    }

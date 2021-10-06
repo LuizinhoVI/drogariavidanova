@@ -31,7 +31,11 @@ h6 {
     position: relative;
     width: 80px;
     height: 50px;
+    padding: 5px;
+    top: 5px;
+    left: 5%;
     border-radius: 10px;
+    background-color: white;
 }
 
 #main {
@@ -39,10 +43,12 @@ h6 {
 }
 
 #mySidebar {
-    top: 130px;
-    bottom: 100px;
-    border: solid black 1px;
-    box-shadow: 0px 0px 10px 0px rgb(120, 224, 120);
+    top: 80px;
+    bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgb(181, 223, 181);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #myFooter {

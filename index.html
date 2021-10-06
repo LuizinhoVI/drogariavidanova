@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style/css/reset.css">
 <link rel="stylesheet" href="style/css/componetes.css">
-
+<script src="js/script.js"></script>
 
 <body>
 
@@ -19,8 +19,9 @@
         <div class="w3-bar  w3-top w3-left-align w3-large" id="barra-inicial">
             <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
             <img href="" src="style/img/logo.png" id="logo" class="w3-bar-item w3-button w3-theme-l1">
-            <form action="">
-                <p class="w3-bar-item w3- w3-hide-small w3-hover-white"><input type="search" href="#" class=""></p>
+            <p class="w3-bar-item w3- w3-hide-small w3-hover-white">
+                <form action="">
+                    <input type="search" href="#" class=""></p>
             </form>
 
 
@@ -100,29 +101,27 @@
         <ul>
             <b>Maquiagem + </b>
 
-            <li>
-                peel off tint
-            </li>
-            <ul>
-                <li></li>
-            </ul>
+
             <li>
                 Vult
-
-
             </li>
-            <ul>
+            <li class="cliki" onclick="abrir()" ondrop="abrir()">Olhos</li>
+            <ul id="open">
+                <li> peel off tint </li>
                 <li>Glitter</li>
                 <li>Go</li>
+                <li>Lips on</li>
                 <li>Lips on</li>
             </ul>
 
         </ul>
         <!-- segunda parte  -->
         <ul><b>Suplementos +</b>
+            <li>Massa</li>
             <ul>
                 <li></li>
             </ul>
+            <li>Creatina</li>
         </ul>
 
 
@@ -278,9 +277,7 @@
             </div>
 
             <footer id="myFooter">
-                <div class="w3-container w3-theme-l2 w3-padding-32">
-                    <h4>Footer</h4>
-                </div>
+
 
                 <div class="w3-container w3-theme-l1">
                     <p>CopyRight ₢
@@ -292,33 +289,11 @@
             <!-- END MAIN -->
         </div>
 
-        <script>
-            // Get the Sidebar
-            var mySidebar = document.getElementById("mySidebar");
-
-            // Get the DIV with overlay effect
-            var overlayBg = document.getElementById("myOverlay");
-
-            // Toggle between showing and hiding the sidebar, and add overlay effect
-            function w3_open() {
-                if (mySidebar.style.display === 'block') {
-                    mySidebar.style.display = 'none';
-                    overlayBg.style.display = "none";
-                } else {
-                    mySidebar.style.display = 'block';
-                    overlayBg.style.display = "block";
-                }
-            }
-
-            // Close the sidebar with the close button
-            function w3_close() {
-                mySidebar.style.display = "none";
-                overlayBg.style.display = "none";
-            }
+        <script src="js/script.js">
         </script>
 
 </body>
 
-</html>
+
 
 </html>

@@ -6,6 +6,6 @@
         /* grid-template-rows: auto; */
         /* border: solid red 1px; */
         justify-content: center;
-        grid-gap: 30px;
+        grid-gap: 20px;
     }
 }

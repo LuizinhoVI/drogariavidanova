@@ -1,18 +1,11 @@
 function suplementos() {
-    var abrir = document.getElementById('suplementos').style;
-    if (abrir.display == "none") {
-        abrir.display = "block";
-    } else { abrir.display = "none"; }
-
-}
-
-function massa() {
     var abrir = document.getElementById('massa').style;
     if (abrir.display == "none") {
         abrir.display = "block";
     } else { abrir.display = "none"; }
 
 }
+
 
 function maquiagem() {
     var abrir = document.getElementById('maquiagem').style;

@@ -4,6 +4,8 @@
         
         .tema {
             margin-bottom: 50px;
+            font-size: 70px;
+            text-shadow: 2px 2px 5px black;
         }
         
         li {
@@ -19,13 +21,27 @@
         
         .remedio>img:hover {
             transform: scale(1.2);
-            top: -10px;
+            top: -5px;
+        }
+        
+        .remedio>h4:hover {
+            transform: scale(1.2);
+            color: green;
         }
         
         .remedio>img {
             position: relative;
-            width: 100%;
+            width: 50%;
             transition: transform 100ms;
+        }
+        
+        .remedio>p {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .remedio>i::before {
+            content: url("../img/efeitos/sobrancelha.png");
         }
         
         #all-remedio {
@@ -61,4 +77,15 @@
         ul>div {
             position: relative;
             top: 15px;
+        }
+        
+        .estilo {
+            border-bottom: 3px black solid;
+            color: green;
+        }
+        
+        #entrada {
+            border: solid blue 1px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 6px 0px green;
         }

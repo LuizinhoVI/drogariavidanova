@@ -40,8 +40,12 @@
             font-family: 'Times New Roman', Times, serif;
         }
         
-        .remedio>i::before {
+        .sobrancelha::before {
             content: url("../img/efeitos/sobrancelha.png");
+        }
+        
+        .academia::before {
+            content: url("../img/efeitos/academia.png");
         }
         
         #all-remedio {

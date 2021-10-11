@@ -1,8 +1,17 @@
 function suplementos() {
     var abrir = document.getElementById('massa').style;
+    var abrir1 = document.getElementById('suplemento').style;
+    var tema = document.getElementById('nometema');
     if (abrir.display == "none") {
         abrir.display = "block";
-    } else { abrir.display = "none"; }
+        abrir1.display = "block";
+        tema.style.display = "block";
+
+    } else {
+        abrir.display = "none";
+        abrir1.display = "none";
+        tema.style.display = "none";
+    }
 
 }
 
@@ -61,4 +70,24 @@ function labio() {
         abrir.display = "block";
     } else { abrir.display = "none"; }
 
+}
+
+
+
+
+function procurar() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
 }

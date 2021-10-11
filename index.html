@@ -21,7 +21,8 @@
     $(function() {
         // $("#cosmetico").load("style/img/cosmeticos/cosmeticos.html");
         $("#nometema").load("style/img/nometema/nometema.html");
-        $("#nometema").load("style/img/suplemento/suplementos.html");
+        // $("#nometema").load("style/img/suplemento/suplementos.html");
+        $("#suplemento").load("style/img/suplemento/suplementos.html");
     })
 </script>
 
@@ -58,7 +59,7 @@
         <ul class="btt-cor"><b onclick="medicamentos()" class="click">Medicamentos +
             </b>
 
-            <div id="medicamentos">
+            <div id="medicamentos" style="display: none;">
 
                 <li>
                     <p>Genéricos ( 0 )</p>
@@ -87,38 +88,40 @@
         </ul>
         <br>
         <ul> <b onclick="cosmeticos()" class="click">Cosméticos +             </b>
-            <div id="cosmeticos">
-                <li>Haskell (0)</li>
-                <ul>
-                    <li>
-                        Shampoo
-                    </li>
-                    <li>
-                        Condicionador
-                    </li>
-                    <li>Máscara de hidratação</li>
-                </ul>
-                <li>Amávia ( 0 )</li>
-                <ul>
-                    <li>
-                        Shampoo
-                    </li>
-                    <li>
-                        Condicionador
-                    </li>
-                    <li>Máscara</li>
-                </ul>
 
-                <li>Makeliss ( 0 )</li>
-                <ul>
-                    <li>
-                        Shampoo
-                    </li>
-                    <li>
-                        Condicionador
-                    </li>
-                    <li>Máscara</li>
-                </ul>
+            <div>
+                <div id="cosmeticos" style="display: none;">
+                    <li>Haskell (0)</li>
+                    <ul>
+                        <li>
+                            Shampoo
+                        </li>
+                        <li>
+                            Condicionador
+                        </li>
+                        <li>Máscara de hidratação</li>
+                    </ul>
+                    <li>Amávia ( 0 )</li>
+                    <ul>
+                        <li>
+                            Shampoo
+                        </li>
+                        <li>
+                            Condicionador
+                        </li>
+                        <li>Máscara</li>
+                    </ul>
+
+                    <li>Makeliss ( 0 )</li>
+                    <ul>
+                        <li>
+                            Shampoo
+                        </li>
+                        <li>
+                            Condicionador
+                        </li>
+                        <li>Máscara</li>
+                    </ul>
 
         </ul>
         <br>
@@ -128,52 +131,54 @@
             <div id="maquiagem">
 
 
+                <div>
 
-                <li class="click-1" onclick="olho()">Olhos</li>
+                    <li class="click-1" onclick="olho()">Olhos</li>
 
-                <ul id="olho" style="display: none;">
-                    <li onclick="volt()" class="click-1">
-                        Vult ( 5 )
-                    </li>
-                    <div id="volt" style="display: none;">
+                    <ul id="olho" style="display: none;">
+                        <li onclick="volt()" class="click-1">
+                            Vult ( 5 )
+                        </li>
+                        <div id="volt" style="display: none;">
 
+                            <li> peel off tint </li>
+                            <li>Glitter</li>
+                            <li>Go</li>
+                            <li>Lips on</li>
+                            <li>Lips on</li>
+
+                        </div>
+                    </ul>
+
+                    <li class="click-1" onclick="labio()">Labios</li>
+                    <ul id="labio" style="display: none;">
                         <li> peel off tint </li>
                         <li>Glitter</li>
                         <li>Go</li>
                         <li>Lips on</li>
                         <li>Lips on</li>
+                    </ul>
 
-                    </div>
-                </ul>
-
-                <li class="click-1" onclick="labio()">Labios</li>
-                <ul id="labio" style="display: none;">
-                    <li> peel off tint </li>
-                    <li>Glitter</li>
-                    <li>Go</li>
-                    <li>Lips on</li>
-                    <li>Lips on</li>
-                </ul>
-
-                <li class="click-1" onclick="rosto()">Rosto</li>
-                <ul id="labio" style="display: none;">
-                    <li> peel off tint </li>
-                    <li>Glitter</li>
-                    <li>Go</li>
-                    <li>Lips on</li>
-                    <li>Lips on</li>
-                </ul>
-                <li class="click-1" onclick="rosto()">Sobrancelhas</li>
-                <ul id="labio" style="display: none;">
-                    <li> peel off tint </li>
-                    <li>Glitter</li>
-                    <li>Go</li>
-                    <li>Lips on</li>
-                    <li>Lips on</li>
-                </ul>
+                    <li class="click-1" onclick="rosto()">Rosto</li>
+                    <ul id="labio" style="display: none;">
+                        <li> peel off tint </li>
+                        <li>Glitter</li>
+                        <li>Go</li>
+                        <li>Lips on</li>
+                        <li>Lips on</li>
+                    </ul>
+                    <li class="click-1" onclick="rosto()">Sobrancelhas</li>
+                    <ul id="labio" style="display: none;">
+                        <li> peel off tint </li>
+                        <li>Glitter</li>
+                        <li>Go</li>
+                        <li>Lips on</li>
+                        <li>Lips on</li>
+                    </ul>
         </ul>
         <br>
 
+        </div>
         </div>
 
         <!-- segunda parte  -->
@@ -215,7 +220,7 @@
                 <div align="center">
 
                     <form action="">
-                        <input type="search" id="entrada"> <input type="submit" value="Procurar" id="procurar">
+                        <input type="search" id="entrada" placeholder="Procurar ...">
                     </form>
                 </div>
                 <hr>
@@ -225,6 +230,13 @@
                 <div id="nometema">
 
                 </div>
+                <!-- tema suplemento -->
+
+
+                <div id="suplemento">
+
+                </div>
+
 
                 <!-- tema de remedioas -->
                 <div id="remedio">

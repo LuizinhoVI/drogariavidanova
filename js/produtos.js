@@ -1,16 +1,16 @@
 function suplementos() {
     var abrir = document.getElementById('massa').style;
     var abrir1 = document.getElementById('suplemento').style;
-    var tema = document.getElementById('nometema');
+    var tema = document.getElementById('nometema').style;
     if (abrir.display == "none") {
         abrir.display = "block";
         abrir1.display = "block";
-        tema.style.display = "block";
+        tema.display = "block";
 
     } else {
         abrir.display = "none";
         abrir1.display = "none";
-        tema.style.display = "none";
+        tema.display = "none";
     }
 
 }

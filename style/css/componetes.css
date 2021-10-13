@@ -97,6 +97,10 @@
             font-size: 30px;
         }
         
+        #entrada::placeholder {
+            text-align: center;
+        }
+        
         .geral {
             position: relative;
             font-size: 20px;

@@ -3,7 +3,8 @@
 <title>Drogaria vida nova</title>
 
 <head>
-    <!--Carrega a biblioteca via CDN. Se vc já carrega outra dentro do seu projeto não precisa-->
+
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="style/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -16,22 +17,23 @@
     <link rel="stylesheet" href="style/css/responsivo.css">
     <script src="js/script.js"></script>
     <script src="js/produtos.js"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
 
     <script>
         $(function() {
+            //  $("#cosmetico").load("style/img/cosmeticos/cosmeticos.html");
+            //$("#nometema").load("style/img/nometema/nometema.html");
 
-            $('#nometema').load("style/img/nometema/nometema.html");
-            $('#suplemento').load("style/img/suplemento/suplementos.html");
-
+            $("#suplemento").load("style/img/suplemento/suplementos.html");
         });
     </script>
 
 </head>
 
 <body>
-
 
     <!-- barra de navegação -->
     <div class="w3-top">
@@ -59,7 +61,7 @@
             <i class="fa fa-remove"></i>
         </a>
 
-        <h4 class="w3-bar-item w3-center "><b class="estilo">Categoria</b></h4>
+        <h4 class="w3-bar-item w3-center "><b class="estilo">Drogaria vida nova</b></h4>
         <br>
         <ul class="btt-cor"><b onclick="medicamentos()" class="click">Medicamentos +
             </b>
@@ -132,40 +134,54 @@
         <br>
         <ul>
             </div>
-
             <b onclick="maquiagem() " class="click">Maquiagem + </b>
-            <br>
-
             <div id="maquiagem">
 
 
+                <div>
 
+                    <li class="click-1" onclick="olho()">Olhos</li>
 
+                    <ul id="olho" style="display: none;">
+                        <li onclick="volt()" class="click-1">
+                            Vult ( 5 )
+                        </li>
+                        <div id="volt" style="display: none;">
 
-                <ul id="olho">
-                    <b>
-                        Vult ( 6 )
-                    </b>
-                    <nav id="volt" style="display: block;">
-                        <li>PÓ</li>
-                        <li>Esmalte</li>
-                        <li>Creme</li>
-                        <li>Base</li>
-                        <li>Batom</li>
-                        <li>Mascara</li>
-
-
-
-                        <!-- <li> peel off tint </li>
+                            <li> peel off tint </li>
                             <li>Glitter</li>
                             <li>Go</li>
                             <li>Lips on</li>
-                            <li>Lips on</li> -->
+                            <li>Lips on</li>
 
-                    </nav>
-                </ul>
-            </div>
+                        </div>
+                    </ul>
 
+                    <li class="click-1" onclick="labio()">Labios</li>
+                    <ul id="labio" style="display: none;">
+                        <li> peel off tint </li>
+                        <li>Glitter</li>
+                        <li>Go</li>
+                        <li>Lips on</li>
+                        <li>Lips on</li>
+                    </ul>
+
+                    <li class="click-1" onclick="rosto()">Rosto</li>
+                    <ul id="labio" style="display: none;">
+                        <li> peel off tint </li>
+                        <li>Glitter</li>
+                        <li>Go</li>
+                        <li>Lips on</li>
+                        <li>Lips on</li>
+                    </ul>
+                    <li class="click-1" onclick="rosto()">Sobrancelhas</li>
+                    <ul id="labio" style="display: none;">
+                        <li> peel off tint </li>
+                        <li>Glitter</li>
+                        <li>Go</li>
+                        <li>Lips on</li>
+                        <li>Lips on</li>
+                    </ul>
         </ul>
         <br>
 
@@ -293,9 +309,6 @@
             <!-- END MAIN -->
         </div>
 
-
 </body>
-
-</html>
 
 </html>

@@ -46,12 +46,19 @@
             <a class=" w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 
             <a href="">
-
                 <img href="" src="style/img/logo.png" id="logo">
             </a>
+            <a href="">
+                <img href="" src="style/img/icon/cosmetico.png" id="logo">
+            </a>
+            <a href="">
+                <img href="" src="style/img/icon/remedio.png" id="logo">
+            </a>
+            <a href="">
+                <img href="" src="style/img/icon/suplemento.png" id="logo">
+            </a>
 
-
-            <p align="center">AVISO!! SITE EM MANUTENÇÃO </p>
+            <p align="center" style="position: absolute; top:20px;">AVISO!! SITE EM MANUTENÇÃO </p>
 
 
 
@@ -231,7 +238,7 @@
                 <!-- tema suplemento -->
 
 
-                <div id="suplemento" style="display: none;">
+                <div id="suplemento" style="display: block;">
 
                 </div>
                 <div id="teste">
@@ -349,7 +356,32 @@
 
         <!-- END MAIN -->
     </div>
+    <script>
+        // Get the Sidebar
+        var mySidebar = document.getElementById("mySidebar");
 
+        // Get the DIV with overlay effect
+        var overlayBg = document.getElementById("myOverlay");
+
+        // Toggle between showing and hiding the sidebar, and add overlay effect
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+                overlayBg.style.display = "none";
+            } else {
+                mySidebar.style.display = 'block';
+                overlayBg.style.display = "block";
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+            overlayBg.style.display = "none";
+        }
+    </script>
+
+    </script>
 
 </body>
 

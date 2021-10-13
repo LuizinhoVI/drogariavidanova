@@ -125,3 +125,16 @@
             width: auto;
             height: auto;
         }
+        
+        .geral>p {
+            border-radius: 20px;
+            border: 7px solid #775408;
+            box-shadow: 0px 0px 5px 0px yellow;
+            width: 20%;
+        }
+        
+        .geral>p:hover {
+            background: black;
+            cursor: pointer;
+            color: #ffb310;
+        }

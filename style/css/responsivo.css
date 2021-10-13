@@ -6,7 +6,18 @@
         /* grid-template-rows: auto; */
         /* border: solid red 1px; */
         justify-content: center;
-        grid-gap: 20px;
+        border: solid red 1px;
+        grid-gap: 0px;
+        padding: 20px;
+    }
+    .remedio>img {
+        width: 80%;
+    }
+    .remedio>p {
+        font-size: 100%;
+    }
+    .remedio>i {
+        width: 100%;
     }
     #entrada {
         width: 100%;
@@ -21,4 +32,5 @@
     .geral>p {
         width: 100%;
     }
+    #logo {}
 }

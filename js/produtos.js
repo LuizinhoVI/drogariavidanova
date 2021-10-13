@@ -48,6 +48,22 @@ function cosmeticos() {
 
 }
 
+function cabelo() {
+    var abrir = document.getElementById('cabelo').style;
+    if (abrir.display == "none") {
+        abrir.display = "block";
+    } else { abrir.display = "none"; }
+
+}
+
+function maquiagem() {
+    var abrir = document.getElementById('pro-maquiagem').style;
+    if (abrir.display == "none") {
+        abrir.display = "block";
+    } else { abrir.display = "none"; }
+
+}
+
 function medicamentos() {
     var abrir = document.getElementById('medicamentos').style;
     if (abrir.display == "none") {

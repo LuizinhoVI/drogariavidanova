@@ -73,9 +73,7 @@
         
         .click-1:hover {
             cursor: pointer;
-            box-shadow: 0px 0px 2px 0px green;
-            padding: 5px;
-            width: 90%;
+            text-shadow: black 1px 1px 2px;
         }
         
         ul>div {
@@ -84,8 +82,9 @@
         }
         
         .estilo {
-            border-bottom: 3px black solid;
             color: green;
+            font-size: 50px;
+            text-shadow: black 1px 2px 5px;
         }
         
         #entrada {

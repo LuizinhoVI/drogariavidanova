@@ -31,6 +31,7 @@
 
             $('#nometema').load("style/img/nometema/nometema.html");
             $('#suplemento').load("style/img/suplemento/suplementos.html");
+            $('#suplemento').load("style/img/cosmeticos/cosmeticos.html");
 
         });
     </script>
@@ -45,18 +46,23 @@
         <div class="w3-bar  w3-top w3-left-align w3-large" id="barra-inicial">
             <a class=" w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 
-            <a href="">
-                <img href="" src="style/img/logo.png" id="logo">
-            </a>
-            <a href="">
-                <img href="" src="style/img/icon/cosmetico.png" id="logo">
-            </a>
-            <a href="">
-                <img href="" src="style/img/icon/remedio.png" id="logo">
-            </a>
-            <a href="">
-                <img href="" src="style/img/icon/suplemento.png" id="logo">
-            </a>
+            <nav>
+                <a href="">
+                    <img href="" src="style/img/logo.png" id="logo">
+                </a>
+
+
+                <a href="">
+                    <img href="" src="style/img/icon/cosmetico.png" id="logo">
+                </a>
+                <a href="">
+                    <img href="" src="style/img/icon/remedio.png" id="logo">
+                </a>
+                <a href="">
+                    <img href="" src="style/img/icon/suplemento.png" id="logo">
+                </a>
+
+            </nav>
 
             <p align="center" style="position: absolute; top:20px;">AVISO!! SITE EM MANUTENÇÃO </p>
 
@@ -109,76 +115,92 @@
         <ul> <b onclick="cosmeticos()" class="click">Cosméticos +             </b>
 
             <div>
-                <div id="cosmeticos" style="display: none;">
-                    <li>Haskell (0)</li>
-                    <ul>
-                        <li>
-                            Shampoo
-                        </li>
-                        <li>
-                            Condicionador
-                        </li>
-                        <li>Máscara de hidratação</li>
+                <div id="cosmeticos" style="display: block;">
+
+                    <ul onclick="cabelo()" class="click-1">
+                        <b>
+
+                             Cabelo ( 3 )
+                          </b>
                     </ul>
-                    <li>Amávia ( 0 )</li>
-                    <ul>
-                        <li>
-                            Shampoo
-                        </li>
-                        <li>
-                            Condicionador
-                        </li>
-                        <li>Máscara</li>
+                    <div style="display: none;" id="cabelo">
+
+                        <li>Haskell (0)</li>
+                        <ul>
+                            <li>
+                                Shampoo
+                            </li>
+                            <li>
+                                Condicionador
+                            </li>
+                            <li>Máscara de hidratação</li>
+                        </ul>
+                        <li>Amávia ( 0 )</li>
+                        <ul>
+                            <li>
+                                Shampoo
+                            </li>
+                            <li>
+                                Condicionador
+                            </li>
+                            <li>Máscara</li>
+                        </ul>
+
+                        <li>Makeliss ( 0 )</li>
+                        <ul>
+                            <li>
+                                Shampoo
+                            </li>
+                            <li>
+                                Condicionador
+                            </li>
+                            <li>Máscara</li>
+                        </ul>
+                    </div>
+                    <!-- parte da maquiagem  -->
+                    <ul class="click-1" onclick="maquiagem()" id="maquiagem">
+                        <b>
+                            Maquiagem ( 0 )
+
+                  </b>
                     </ul>
-
-                    <li>Makeliss ( 0 )</li>
-                    <ul>
-                        <li>
-                            Shampoo
-                        </li>
-                        <li>
-                            Condicionador
-                        </li>
-                        <li>Máscara</li>
-                    </ul>
-
-        </ul>
-        <br>
-        <ul>
-            </div>
-
-            <b onclick="maquiagem() " class="click">Maquiagem + </b>
-            <br>
-
-            <div id="maquiagem">
+                    <div style="display: none;" id="pro-maquiagem">
 
 
+                        <li>Batom ( 3 )</li>
+                        <ul>
+                            <li>
+                                Gel
+                            </li>
+                            <li>
+                                Base
+                            </li>
+                            <li>cremoso</li>
+                            <li>cremoso</li>
+                        </ul>
 
+                        <li>Base ( 0 )</li>
+                        <ul>
+                            <li>
+                                Shampoo
+                            </li>
+                            <li>
+                                Condicionador
+                            </li>
+                            <li>Máscara</li>
+                        </ul>
+                        <li>Esmalte ( 0 )</li>
+                        <ul>
+                            <li>
+                                Shampoo
+                            </li>
+                            <li>
+                                Condicionador
+                            </li>
+                            <li>Máscara</li>
+                        </ul>
+                    </div>
 
-
-                <ul id="olho">
-                    <b>
-                        Vult ( 6 )
-                    </b>
-                    <nav id="volt" style="display: block;">
-                        <li>PÓ</li>
-                        <li>Esmalte</li>
-                        <li>Creme</li>
-                        <li>Base</li>
-                        <li>Batom</li>
-                        <li>Mascara</li>
-
-
-
-                        <!-- <li> peel off tint </li>
-                            <li>Glitter</li>
-                            <li>Go</li>
-                            <li>Lips on</li>
-                            <li>Lips on</li> -->
-
-                    </nav>
-                </ul>
-            </div>
 
         </ul>
         <br>
@@ -250,7 +272,7 @@
 
                 </div>
                 <!-- tema de cosmeticos -->
-                <div id="cosmetico ">
+                <div id="cosmetico" style="display: block;">
 
                 </div>
 
@@ -261,11 +283,11 @@
 
             </div>
 
-            <div class="w3-row ">
+            <div class="w3-row w3-center">
                 <div class="w3-container w3-center ">
                     <h1 class="w3-text-teal " align="center ">Farmácia</h1>
 
-                    <div id="myCarousel" class="carousel slide meio" data-ride="carousel">
+                    <div id="myCarousel" class="carousel slide meio w3-center" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -278,7 +300,7 @@
                         </ol>
 
                         <!-- Wrapper for slides -->
-                        <div class="carousel-inner carousel" style="width:100%; ">
+                        <div class="carousel-inner carousel w3-center" style="width:100%; ">
                             <div class="item active">
                                 <img src="style/img/slide/1.jpg" alt="Los Angeles">
                             </div>
@@ -384,6 +406,8 @@
     </script>
 
 </body>
+
+</html>
 
 </html>
 

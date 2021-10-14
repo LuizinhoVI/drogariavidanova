@@ -44,27 +44,35 @@
     <!-- barra de navegação -->
     <div class="w3-top">
         <div class="w3-bar  w3-top w3-left-align w3-large" id="barra-inicial">
-            <a class=" w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-
-            <nav>
-                <a href="">
-                    <img href="" src="style/img/logo.png" id="logo">
-                </a>
 
 
-                <a href="">
-                    <img href="" src="style/img/icon/cosmetico.png" id="logo">
-                </a>
-                <a href="">
-                    <img href="" src="style/img/icon/remedio.png" id="logo">
-                </a>
-                <a href="">
-                    <img href="" src="style/img/icon/suplemento.png" id="logo">
-                </a>
 
-            </nav>
 
-            <p align="center" style="position: absolute; top:20px;">AVISO!! SITE EM MANUTENÇÃO </p>
+
+            <a href="#tema">
+                <img href="" src="style/img/icon/home.png" id="logo">
+                <div>farmacia</div>
+            </a>
+
+            <a href="">
+                <img href="" src="style/img/icon/cosmetico.png" id="logo">
+                <div>Cosmeticos</div>
+            </a>
+            <a href="">
+                <img href="" src="style/img/icon/remedio.png" id="logo">
+                <div>Remédios</div>
+            </a>
+            <a href="">
+                <img href="" src="style/img/icon/suplemento.png" id="logo">
+                <div>Suplementos</div>
+            </a>
+
+
+            <a href="javascript:void(0)" onclick="w3_open()">
+                <img href="" src="style/img/icon/list1.png" id="logo">
+                <div>Menu</div>
+            </a>
+
 
 
 
@@ -79,7 +87,8 @@
             <i class="fa fa-remove"></i>
         </a>
 
-        <h4 class="w3-bar-item w3-center "><b class="estilo">Categoria</b></h4>
+        <h4 class="w3-bar-item w3-center "><img src="style/img/logo.png" class="estilo">
+        </h4>
         <br>
         <ul class="btt-cor"><b onclick="medicamentos()" class="click">Medicamentos +
             </b>
@@ -249,6 +258,7 @@
         </div>
     </nav>
 
+    <p align="center" style="position: absolute; top:20px;">AVISO!! SITE EM MANUTENÇÃO </p>
     <!-- Overlay effect when opening sidebar on small screens -->
     <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
@@ -258,7 +268,7 @@
         <div class="w3-row w3-padding-64">
             <div class=" w3-container">
                 <br>
-                <h1 class="w3-text-teal w3-center tema"> Drogaria Vida Nova</h1>
+                <h1 class="w3-text-teal w3-center tema" id="tema"> Drogaria Vida Nova</h1>
                 <hr>
                 <div align="center">
 

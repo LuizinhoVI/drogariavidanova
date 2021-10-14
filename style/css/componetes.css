@@ -82,8 +82,7 @@
         }
         
         .estilo {
-            color: green;
-            font-size: 50px;
+            width: 20%;
             text-shadow: black 1px 2px 5px;
         }
         
@@ -136,4 +135,8 @@
             background: black;
             cursor: pointer;
             color: #ffb310;
+        }
+        
+        .icones {
+            border: solid red 1px;
         }

@@ -17,7 +17,7 @@ function suplementos() {
 
 
 function maquiagem() {
-    var abrir = document.getElementById('maquiagem').style;
+    var abrir = document.getElementById('cosmetico').style;
     if (abrir.display == "none") {
         abrir.display = "block";
     } else { abrir.display = "none"; }

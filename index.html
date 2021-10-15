@@ -21,17 +21,19 @@
     <link rel="stylesheet" href="style/css/reset.css">
     <link rel="stylesheet" href="style/css/componetes.css">
     <link rel="stylesheet" href="style/css/responsivo.css">
+
     <script src="js/script.js"></script>
     <script src="js/produtos.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 
     <script>
         $(function() {
 
             $('#nometema').load("style/img/nometema/nometema.html");
             $('#suplemento').load("style/img/suplemento/suplementos.html");
-            $('#suplemento').load("style/img/cosmeticos/cosmeticos.html");
+            $('#cosmetico').load("style/img/cosmeticos/cosmeticos.html");
 
         });
     </script>
@@ -121,7 +123,8 @@
             </div>
         </ul>
         <br>
-        <ul> <b onclick="cosmeticos()" class="click">Cosméticos +             </b>
+        <ul> <b onclick="cosmeticos()" class="click">
+            Cosméticos +             </b>
 
             <div>
                 <div id="cosmeticos" style="display: block;">
@@ -172,6 +175,7 @@
                             Maquiagem ( 4 )
 
                   </b>
+
                     </ul>
                     <div style="display: block;" id="pro-maquiagem">
 
@@ -222,6 +226,8 @@
                             </li>
                             <li>Compacto</li>
                             <li>Iluminador</li>
+                            <li> Albumina</li>
+                            <li>3x Whey proten</li>
 
                         </ul>
                     </div>
@@ -241,7 +247,7 @@
 
                 <ul id="massa" style="display: none;">
                     <b>
-                    Voxx (6)
+                    Voxx (8)
                 </b>
                     <li>Glutamina</li>
                     <li>Creatina</li>
@@ -286,12 +292,10 @@
                 <!-- tema suplemento -->
 
 
-                <div id="suplemento" style="display: block;">
+                <div id="suplemento" style="display: none;">
 
                 </div>
-                <div id="teste">
 
-                </div>
 
                 <!-- tema de remedioas -->
                 <div id="remedio">

@@ -71,10 +71,23 @@ h6 {
 }
 
 #myFooter {
-    position: fixed;
-    left: 0;
-    width: 100%;
+    position: relative;
+    left: 5%;
+    width: 90%;
     bottom: 0;
+    box-shadow: 0px 0px 10px 0px black;
+    background: rgb(55, 184, 55);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#myFooter>div>p {
+    font-size: 19px;
+    padding: 10px;
+}
+
+#myFooter>div>p>a {
+    color: black;
 }
 
 

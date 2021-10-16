@@ -6,7 +6,6 @@
                 /* grid-template-rows: auto; */
                 /* border: solid red 1px; */
                 justify-content: center;
-                border: solid red 1px;
                 grid-gap: 0px;
                 padding: 20px;
             }
@@ -14,7 +13,7 @@
                 width: 80%;
             }
             .remedio>p {
-                font-size: 100%;
+                font-size: 90%;
             }
             .remedio>i {
                 width: 100%;

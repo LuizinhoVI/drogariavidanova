@@ -140,3 +140,8 @@
         .icones {
             border: solid red 1px;
         }
+        
+        a {
+            text-decoration: none !important;
+            color: black;
+        }

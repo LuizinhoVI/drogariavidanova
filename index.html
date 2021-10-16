@@ -57,7 +57,7 @@
             </a>
 
             <a href="">
-                <img href="" src="style/img/icon/cosmetico.png" id="logo">
+                <img href="" onclick="cosmeticos()" src="style/img/icon/cosmetico.png" id="logo">
                 <div>Cosmeticos</div>
             </a>
             <a href="">
@@ -92,8 +92,9 @@
         <h4 class="w3-bar-item w3-center "><img src="style/img/logo.png" class="estilo">
         </h4>
         <br>
-        <ul class="btt-cor"><b onclick="medicamentos()" class="click">Medicamentos +
-            </b>
+        <ul onclick="medicamentos()" class="click">Medicamentos +
+        </ul>
+        <ul class="btt-cor">
 
             <div id="medicamentos" style="display: none;">
 
@@ -123,9 +124,16 @@
             </div>
         </ul>
         <br>
-        <ul> <b onclick="cosmeticos()" class="click">
-            Cosméticos +             </b>
+        <a href="#tema">
 
+            <ul onclick="cosmeticos()" class="click">
+
+                Cosméticos +
+
+            </ul>
+        </a>
+
+        <ul>
             <div>
                 <div id="cosmeticos" style="display: block;">
 
@@ -240,7 +248,8 @@
         </div>
 
         <!-- segunda parte  -->
-        <ul><b onclick="suplementos()" class="click">Suplementos +</b>
+        <ul onclick="suplementos()" class="click">Suplementos +</ul>
+        <ul>
             <div id="suplementos">
 
 
@@ -260,7 +269,36 @@
 
         </ul>
         <br>
+        <ul class="btt-cor click"><b onclick="">Área infatil +
+        </b>
 
+            <div id="medicamentos" style="display: none;">
+
+                <li>
+                    <p>Genéricos ( 0 )</p>
+                </li>
+                <ul>
+                    <li>
+                        Vitamina C ( 1 )
+                    </li>
+
+                </ul>
+                <li>Antibióticos ( 0 )</li>
+                <ul>
+                    <li>
+
+                    </li>
+
+                </ul>
+                <li>Éticos( 0)</li>
+                <ul>
+                    <li>
+
+                    </li>
+
+                </ul>
+            </div>
+        </ul>
         </div>
     </nav>
 

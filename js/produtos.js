@@ -1,16 +1,18 @@
 function suplementos() {
     var abrir = document.getElementById('massa').style;
     var abrir1 = document.getElementById('suplemento').style;
-    var tema = document.getElementById('nometema').style;
+    var temas = document.getElementById('temas');
     if (abrir.display == "none") {
         abrir.display = "block";
         abrir1.display = "block";
-        tema.display = "block";
+        temas.style.display = "block";
+        temas.innerHTML = "Suplementos";
 
     } else {
         abrir.display = "none";
         abrir1.display = "none";
-        tema.display = "none";
+        temas.style.display = "none";
+
     }
 
 }
@@ -42,9 +44,21 @@ function volt() {
 
 function cosmeticos() {
     var abrir = document.getElementById('cosmeticos').style;
+    var abrir1 = document.getElementById('cosmetico').style;
+
+    var temas = document.getElementById('temas');
+
     if (abrir.display == "none") {
         abrir.display = "block";
-    } else { abrir.display = "none"; }
+        abrir1.display = "block";
+        temas.style.display = "block";
+        temas.innerHTML = "Cosmeticos";
+
+    } else {
+        abrir.display = "none";
+        abrir1.display = "none";
+        temas.style.display = "none";
+    }
 
 }
 

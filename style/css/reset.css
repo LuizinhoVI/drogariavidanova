@@ -90,5 +90,9 @@ h6 {
     color: black;
 }
 
+li {
+    list-style: none;
+}
+
 
 /* base do  */

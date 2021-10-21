@@ -94,9 +94,20 @@
 
  function medicamentos() {
      var abrir = document.getElementById('medicamentos').style;
+     var remedio = document.getElementById('remedio').style;
+     var temas = document.getElementById('temas');
+
+
      if (abrir.display == "none") {
          abrir.display = "block";
-     } else { abrir.display = "none"; }
+         remedio.display = "block";
+         temas.innerHTML = "REMEDIOS";
+         temas.style.display = "block";
+     } else {
+         abrir.display = "none";
+         temas.style.display = "none";
+         remedio.display = "none";
+     }
 
  }
 

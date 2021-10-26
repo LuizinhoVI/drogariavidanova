@@ -37,4 +37,9 @@
             #barra-inicial>a {
                 display: block;
             }
+            .inform {
+                grid-template-columns: auto;
+                grid-template-rows: auto;
+                grid-gap: 10px;
+            }
         }

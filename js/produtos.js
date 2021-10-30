@@ -127,10 +127,66 @@
 
  }
 
+ function areainfantil() {
+     var abrir = document.getElementById('infantil').style;
+     var abrir1 = document.getElementById('areainfantil').style;
+
+
+     if (abrir.display == "none") {
+         abrir.display = "block"
+         abrir1.display = "block"
+     } else {
+         abrir.display = "none"
+         abrir1.display = "none"
+     }
+ }
+
+
+
+
+ contador = 0;
+
  function tema1() {
+
      var temas = document.getElementById('temas').style;
 
-     temas.color = "#ffffff"
-    
-    
+     if (contador == 0) {
+
+         temas.color = "white"
+         temas.background = "#3c7c52"
+         temas.border = "solid 5px white"
+         temas.boxShadow = "0px 0px 10px 0px blue"
+         contador++;
+     } else {
+
+         temas.color = "black"
+         temas.background = "white"
+         temas.border = "solid 5px #3c7c52"
+         temas.boxShadow = "0px 0px 0px 0px black"
+         contador--;
+     }
+
+
+ }
+
+ function tema2() {
+
+     var subtema = document.getElementById('subtema').style;
+     if (contador == 0) {
+
+         subtema.color = "white"
+         subtema.background = "#3c7c52"
+         subtema.border = "solid 5px white"
+         subtema.boxShadow = "0px 0px 10px 0px blue"
+         contador++;
+     } else {
+
+         subtema.color = "black"
+         subtema.background = "white"
+         subtema.border = "solid 5px #3c7c52"
+         subtema.boxShadow = "0px 0px 0px 0px black"
+         contador--;
+     }
+
+
  }

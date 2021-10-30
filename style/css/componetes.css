@@ -1,5 +1,5 @@
             .btt-cor {
-                list-style: square inside red;
+                list-style: square inside;
                 text-align: center;
             }
             
@@ -106,6 +106,7 @@
                 justify-content: center;
                 position: relative;
                 font-size: 20px;
+                grid-gap: 10px;
             }
             
             .slide {
@@ -135,7 +136,7 @@
             }
             
             .geral>p:hover {
-                background: #3c7c52;
+                background: #3c7e53;
                 box-shadow: 0px 0px 10px 0px #3c7c52;
                 cursor: pointer;
                 color: #ffffff;

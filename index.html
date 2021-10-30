@@ -95,31 +95,24 @@
         <br>
         <ul onclick="medicamentos()" class="btt-cor click">Medicamentos +
         </ul>
-        <ul class="">
-
-            <div id="medicamentos" style="display: block;">
-
-                <li>
-                    <p>Genéricos ( )</p>
-                </li>
-                <ul style="display: none;">
-                    <li>
-                        Vitamina C ( )
-                    </li>
-
-                </ul>
-                <li>Antibióticos ( )</li>
-                <ul>
 
 
-                </ul>
-                <li>Éticos( )</li>
-                <ul>
+        <div id="medicamentos" class="alinhamento" style="display: block; text-align: right;">
+            <br>
+            <li>
+                Genéricos ( )
+            </li>
 
+            <li style="display: none;">
+                Vitamina C ( )
+            </li>
 
-                </ul>
-            </div>
-        </ul>
+            <li>Antibióticos ( )</li>
+
+            <li>Éticos( )</li>
+
+        </div>
+
         <br>
 
         <!-- cosmeticos -->
@@ -132,14 +125,29 @@
             </ul>
         </a>
 
+        <div id="cosmeticos" class="alinhamento" style="display: block; text-align: right;">
+
+            <li onclick="cabelo()" class="click-1">
+                Cabelo ( )
+            </li>
+
+            <li style="display: none;" class="click-1">
+                Maquiagem ( )
+            </li>
+
+            <li class="click-1">Antibióticos ( )</li>
+
+            <li class="click-1">Éticos( )</li>
+
+        </div>
 
 
         <div id="cosmeticos" style="display: none;">
 
-            <ul onclick="cabelo()" class="click-1">
+            <ul>
                 <b>
 
-                             Cabelo ( 3 )
+                             
                           </b>
             </ul>
 
@@ -181,7 +189,7 @@
             <!-- parte da maquiagem  -->
             <ul class="click-1" onclick="maquiagem()" id="maquiagem">
                 <b>
-                            Maquiagem ( 4 )
+                             ( 4 )
 
                   </b>
 

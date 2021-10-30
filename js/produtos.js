@@ -126,3 +126,11 @@
      } else { abrir.display = "none"; }
 
  }
+
+ function tema1() {
+     var temas = document.getElementById('temas').style;
+
+     temas.color = "#ffffff"
+    
+    
+ }

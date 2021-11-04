@@ -18,6 +18,7 @@
                 padding: 10px;
                 /* border: solid red 1px; */
                 text-align: center;
+                display: block;
             }
             
             .remedio>img:hover {

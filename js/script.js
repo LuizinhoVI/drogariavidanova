@@ -41,11 +41,49 @@ function pesquisar() {
 
 }
 
+function pesquisar_areainfantil() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("entrada");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("all-infantil");
+    li = ul.getElementsByTagName("div");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("p")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+            console.log(li[i])
+        }
+    }
+
+}
+
 function pesquisar_cosmetico() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("entrada");
     filter = input.value.toUpperCase();
-    ul = document.getElementById("cosmeticos");
+    ul = document.getElementById("all-cosmeticos");
+    li = ul.getElementsByTagName("div");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("p")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+            console.log(li[i])
+        }
+    }
+
+}
+
+function pesquisar_suplemento() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("entrada");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("all-suplemento");
     li = ul.getElementsByTagName("div");
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("p")[0];

@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="style/css/componetes.css">
     <link rel="stylesheet" href="style/css/responsivo.css">
 
-    <script src="js/script.js"></script>
-    <script src="js/produtos.js"></script>
+    <!-- <script src="js/script.js"></script>
+    <script src="js/produtos.js"></script> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -316,7 +316,9 @@
                 <div align="center">
 
                     <form action="">
-                        <input type="text" onkeypress="pesquisa()" id="entrada" placeholder="EM TESTE...">
+
+                        <input type="text" onkeyup="pesquisar()" id="entrada" placeholder="EM TESTE...">
+
                     </form>
                 </div>
                 <hr>
@@ -335,7 +337,7 @@
 
 
                 <!-- tema de remedioas -->
-                <div id="remedio" style="display: none;">
+                <div id="remedio" style="display: block;">
 
                 </div>
                 <!-- tema de cosmeticos -->
@@ -467,7 +469,7 @@
 
         <!-- END MAIN -->
     </div>
-    <script>
+    <script src="js/script.js">
         // Get the Sidebar
         var mySidebar = document.getElementById("mySidebar");
 
@@ -491,6 +493,10 @@
             overlayBg.style.display = "none";
         }
     </script>
+
+
+
+
 
 
 

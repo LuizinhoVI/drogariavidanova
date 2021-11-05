@@ -21,7 +21,8 @@ function w3_close() {
     overlayBg.style.display = "none";
 }
 
-function pesquisa() {
+
+function pesquisar() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("entrada");
     filter = input.value.toUpperCase();
@@ -34,6 +35,8 @@ function pesquisa() {
             li[i].style.display = "";
         } else {
             li[i].style.display = "none";
+            console.log(li[i])
         }
     }
+
 }

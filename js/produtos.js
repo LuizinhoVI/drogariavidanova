@@ -99,14 +99,15 @@
 
 
      if (abrir.display == "none") {
-         abrir.display = "block";
-         remedio.display = "block";
+         //   abrir.display = "block";
+         //  remedio.display = "block";
          temas.innerHTML = "REMEDIOS";
          temas.style.display = "block";
+
      } else {
-         abrir.display = "none";
+         //   abrir.display = "none";
          temas.style.display = "none";
-         remedio.display = "none";
+         //  remedio.display = "none";
      }
 
  }

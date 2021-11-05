@@ -40,6 +40,7 @@
             .remedio>p {
                 font-size: 20px;
                 font-family: 'Times New Roman', Times, serif;
+                display: block;
             }
             
             .sobrancelha::before {
@@ -178,4 +179,8 @@
             .alinhamento {
                 position: relative;
                 left: -40%;
+            }
+            
+            #all-remedio>div {
+                display: block;
             }

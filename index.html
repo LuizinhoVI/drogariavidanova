@@ -49,10 +49,20 @@
     <div class="w3-top">
         <div class="w3-bar  w3-top w3-left-align w3-large" id="barra-inicial">
 
+            <div align="center">
+                <form action="">
+
+                    <input type="text" onkeyup="pesquisar_cosmetico()" id="entrada" placeholder="EM TESTE...">
+
+                </form>
+            </div>
 
 
 
-
+            <a href="#tema" class="logo">
+                <img href="" src="style/img/icon/lupa.png" id="logo">
+                <div>pesquisar</div>
+            </a>
             <a href="#tema">
                 <img href="" src="style/img/icon/home.png" id="logo">
                 <div>farmacia</div>
@@ -311,23 +321,14 @@
         <div class="w3-row w3-padding-64">
             <div class=" w3-container">
                 <br>
-                <h1 class="w3-text-teal w3-center tema" id="tema"> Drogaria Vida Nova</h1>
-                <hr>
-                <div align="center">
-
-                    <form action="">
-
-                        <input type="text" onkeyup="pesquisar()" id="entrada" placeholder="EM TESTE...">
-
-                    </form>
-                </div>
-                <hr>
+                <h1 class=" w3-center tema" id="tema"> Drogaria Vida Nova</h1>
 
 
                 <!-- nome temas -->
                 <div id="nometema">
 
                 </div>
+                <hr>
                 <!-- tema suplemento -->
 
 
@@ -341,7 +342,7 @@
 
                 </div>
                 <!-- tema de cosmeticos -->
-                <div id="cosmetico" style="display: block;">
+                <div id="cosmetico" style="display: none;">
 
                 </div>
                 <div id="areainfantil" style="display: none;">

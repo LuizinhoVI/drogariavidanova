@@ -30,9 +30,12 @@
             }
             #logo {
                 display: block;
+                position: relative;
+                left: 12px;
             }
             #barra-inicial>a {
                 display: block;
+                text-align: center;
             }
             .inform {
                 grid-template-columns: auto;

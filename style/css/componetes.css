@@ -5,8 +5,9 @@
             
             .tema {
                 margin-bottom: 50px;
-                font-size: 70px;
+                font-size: 100px;
                 text-shadow: 2px 2px 5px black;
+                color: green;
             }
             
             li {
@@ -51,7 +52,8 @@
                 content: url("../img/efeitos/academia.png");
             }
             
-            #all-remedio {
+            #all-remedio,
+            #all-cosmeticos {
                 display: grid;
                 grid-template-columns: auto auto auto auto;
                 grid-template-rows: auto auto auto auto;
@@ -71,7 +73,7 @@
             .click {
                 cursor: pointer;
                 border: solid rgb(75, 99, 68) 3px;
-                border-radius: 40px;
+                border-radius: 10px;
                 padding: 10px;
             }
             
@@ -94,9 +96,13 @@
                 border: solid blue 1px;
                 border-radius: 20px;
                 box-shadow: 0px 0px 6px 0px green;
-                height: 30px;
-                padding: 30px;
+                height: 20px;
+                padding: 20px;
                 font-size: 30px;
+                position: relative;
+                top: 10px;
+                text-align: center;
+                left: 50%;
             }
             
             #entrada::placeholder {
@@ -183,5 +189,9 @@
             }
             
             #all-remedio>div {
+                display: block;
+            }
+            
+            #all-cosmeticos>div {
                 display: block;
             }

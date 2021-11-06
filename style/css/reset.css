@@ -24,15 +24,17 @@ h6 {
 
 #barra-inicial {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
     background: rgb(55, 184, 55);
     box-shadow: 0px 0px 10px 0px green;
     height: 65px;
+    
 }
 
 #barra-inicial>a {
-    text-decoration: none;
-    display: none;
+    text-decoration: none;position:relative;
+    display: none;left: -10px;
+   
 }
 
 #barra-inicial>a>div {

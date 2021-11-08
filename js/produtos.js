@@ -3,6 +3,8 @@
      var abrir1 = document.getElementById('suplemento').style;
      var paginas = document.getElementById('paginas').style;
      var temas = document.getElementById('temas');
+     var fechar = document.getElementById('temas');
+
      if (abrir.display == "none") {
          abrir.display = "block";
          abrir1.display = "block";
@@ -99,15 +101,15 @@
 
 
      if (abrir.display == "none") {
-         //   abrir.display = "block";
-         //  remedio.display = "block";
+         abrir.display = "block";
+         remedio.display = "block";
          temas.innerHTML = "REMEDIOS";
          temas.style.display = "block";
 
      } else {
-         //   abrir.display = "none";
+         abrir.display = "none";
          temas.style.display = "none";
-         //  remedio.display = "none";
+         remedio.display = "none";
      }
 
  }

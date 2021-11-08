@@ -4,25 +4,28 @@
             #all-infantil,
             #all-suplemento {
                 display: grid;
-                grid-template-columns: auto auto auto;
-                grid-template-rows: auto auto auto auto;
+                grid-template-columns: auto auto;
+                /* grid-template-rows: auto auto auto; */
                 /* grid-template-rows: auto; */
                 /* border: solid red 1px; */
                 justify-content: center;
                 width: 95%;
                 position: relative;
                 left: 5%;
-                padding: 5px;
+                padding: 2px;
                 grid-gap: 10px;
+            }
+            #all-remedio>div {
+                font-size: 12px;
+                width: 100%;
+                border: solid red 1px;
+                padding: 0;
             }
             .remedio>img {
                 width: 80%;
             }
             .remedio>p {
-                font-size: 90%;
-            }
-            .remedio>i {
-                width: 100%;
+                width: 80%;
             }
             .slide {
                 max-width: 100%;
@@ -39,6 +42,10 @@
             #barra-inicial>a {
                 display: block;
                 text-align: center;
+            }
+            #barra-inicial>a>div {
+                font-size: 12px;
+                left: 8px;
             }
             .entrada {
                 position: fixed;
@@ -59,8 +66,8 @@
             .x {
                 position: absolute;
                 width: 45px;
-                left: 420px;
-                top: 8px;
+                right: 10px;
+                top: 12px;
                 cursor: pointer;
                 display: none;
             }

@@ -20,6 +20,7 @@
                 /* border: solid red 1px; */
                 text-align: center;
                 display: block;
+                border: solid black 1px;
             }
             
             .remedio>img:hover {
@@ -193,6 +194,10 @@
                 /* grid-template-rows: auto; */
                 /* border: solid red 1px; */
                 justify-content: center;
-                padding: 50px;
-                /* grid-gap: 5px; */
+                width: 90%;
+                position: relative;
+                left: 5%;
+                padding: 10px;
+                grid-gap: 10px;
+                border: solid red 1px;
             }

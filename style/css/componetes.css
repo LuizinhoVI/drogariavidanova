@@ -16,7 +16,7 @@
             }
             
             .remedio {
-                padding: 10px;
+                padding: 5px;
                 /* border: solid red 1px; */
                 text-align: center;
                 display: block;
@@ -92,6 +92,7 @@
                 top: 10px;
                 text-align: center;
                 left: 50%;
+                color: green;
             }
             
             #entrada::placeholder {
@@ -197,7 +198,7 @@
                 width: 90%;
                 position: relative;
                 left: 5%;
-                padding: 10px;
+                padding: 50px;
                 grid-gap: 10px;
                 border: solid red 1px;
             }

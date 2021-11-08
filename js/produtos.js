@@ -98,6 +98,7 @@
      var abrir = document.getElementById('medicamentos').style;
      var remedio = document.getElementById('remedio').style;
      var temas = document.getElementById('temas');
+     //  var fechar = document.getElementsByClassName('fechar');
 
 
      if (abrir.display == "none") {

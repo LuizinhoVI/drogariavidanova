@@ -42,12 +42,6 @@ h6 {
     top: -5px;
 }
 
-#logo:hover {
-    border: solid black 1px;
-    width: 50px;
-    box-shadow: 0px 0px 10px 0px black;
-}
-
 #logo {
     position: relative;
     height: 50px;

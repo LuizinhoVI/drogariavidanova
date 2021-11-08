@@ -1,10 +1,10 @@
-        @media only screen and (max-width:600px) {
+        @media only screen and ( max-width:700px) {
             #all-remedio,
             #all-cosmeticos,
             #all-infantil,
             #all-suplemento {
                 display: grid;
-                grid-template-columns: auto auto auto auto;
+                grid-template-columns: auto auto auto;
                 grid-template-rows: auto auto auto auto;
                 /* grid-template-rows: auto; */
                 /* border: solid red 1px; */
@@ -12,9 +12,8 @@
                 width: 95%;
                 position: relative;
                 left: 5%;
-                padding: 50px;
+                padding: 5px;
                 grid-gap: 10px;
-                border: solid red 1px;
             }
             .remedio>img {
                 width: 80%;
@@ -44,15 +43,25 @@
             .entrada {
                 position: fixed;
                 top: 70px;
+                left: 0;
                 width: 100%;
             }
             #entrada {
                 left: 0%;
                 width: 70%;
+                display: none;
             }
             .inform {
                 grid-template-columns: auto;
                 grid-template-rows: auto;
                 grid-gap: 10px;
+            }
+            .x {
+                position: absolute;
+                width: 45px;
+                left: 420px;
+                top: 8px;
+                cursor: pointer;
+                display: none;
             }
         }

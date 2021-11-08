@@ -4,6 +4,8 @@
             }
             
             .tema {
+                top: 25px;
+                position: relative;
                 margin-bottom: 50px;
                 font-size: 100px;
                 text-shadow: 2px 2px 5px black;
@@ -20,7 +22,6 @@
                 /* border: solid red 1px; */
                 text-align: center;
                 display: block;
-                border: solid black 1px;
             }
             
             .remedio>img:hover {
@@ -81,17 +82,22 @@
                 text-shadow: black 1px 2px 5px;
             }
             
+            .entrada {
+                width: 100%;
+                position: relative;
+                left: 65vh;
+            }
+            
             #entrada {
                 border: solid blue 1px;
                 border-radius: 20px;
-                box-shadow: 0px 0px 6px 0px green;
+                box-shadow: 0px 0px 15px 0px green;
                 height: 20px;
                 padding: 20px;
                 font-size: 30px;
                 position: relative;
                 top: 10px;
                 text-align: center;
-                left: 50%;
                 color: green;
             }
             
@@ -163,8 +169,9 @@
                 position: relative;
                 justify-content: space-between;
                 display: grid;
+                text-align: center;
                 grid-gap: 10px;
-                grid-template-columns: auto auto auto auto;
+                grid-template-columns: auto;
             }
             
             .inform>div {
@@ -200,5 +207,8 @@
                 left: 5%;
                 padding: 50px;
                 grid-gap: 10px;
-                border: solid red 1px;
+            }
+            
+            .x {
+                display: none;
             }

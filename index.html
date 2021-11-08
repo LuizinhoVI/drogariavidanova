@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/icones.js"></script>
     <!-- carrosel -->
 
     <link rel="stylesheet" href="style/css/reset.css">
@@ -54,30 +55,30 @@
                 <form action="">
 
                     <input type="text" onkeyup="pesquisar_cosmetico();pesquisar();pesquisar_areainfantil();pesquisar_suplemento();pesquisar()" id="entrada" placeholder="Procurar">
-
+                    <img src="style/img/icon/x.png" class="x" id="x" alt="fechar" onclick="pesqui_close()">
                 </form>
             </div>
 
 
 
-            <a href="#tema" class="logo">
+            <a href="#tema" class="logo" id="inipesquisar" onclick="pesqui_open()">
                 <img href="" src="style/img/icon/lupa.png" id="logo">
                 <div>pesquisar</div>
             </a>
-            <a href="#tema">
+            <a href="#tema" onclick="">
                 <img href="" src="style/img/icon/home.png" id="logo">
                 <div>farmacia</div>
             </a>
 
-            <a href="">
-                <img href="" onclick="cosmeticos()" src="style/img/icon/cosmetico.png" id="logo">
+            <a onclick="open_cosmetico()">
+                <img href="" src="style/img/icon/cosmetico.png" id="logo">
                 <div>Cosmeticos</div>
             </a>
-            <a href="">
+            <a onclick="open_remedio()">
                 <img href="" src="style/img/icon/remedio.png" id="logo">
                 <div>Remédios</div>
             </a>
-            <a href="">
+            <a onclick="open_suplem()">
                 <img href="" src="style/img/icon/suplemento.png" id="logo">
                 <div>Suplementos</div>
             </a>
@@ -343,7 +344,7 @@
 
                 </div>
                 <!-- tema de cosmeticos -->
-                <div id="cosmetico" style="display: block;">
+                <div id="cosmetico" style="display: none;">
 
                 </div>
                 <div id="areainfantil" style="display: none;">
@@ -442,7 +443,21 @@
         .
         <div class="w3-row w3-padding-64">
             <div class=" w3-container">
-                <h1 class="w3-text-teal w3-center ">Informações</h1>
+                <h1 class="w3-text-teal w3-center ">Sobre</h1>
+                <div align="center" class="inform">
+
+
+                    <div align="center"> Tudo sobre a farmácia aqui... </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="w3-row w3-padding-64">
+            <div class=" w3-container">
+                <h1 class="w3-text-teal w3-center ">Sobre</h1>
                 <div align="center" class="inform">
 
 

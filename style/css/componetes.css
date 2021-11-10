@@ -18,9 +18,10 @@
             }
             
             .remedio {
-                padding: 5px;
+                padding: 50px;
                 text-align: center;
                 display: block;
+                /* border: solid 1px rgb(65, 233, 31); */
             }
             
             .remedio>img:hover {
@@ -30,13 +31,13 @@
             
             .remedio>img {
                 position: relative;
-                width: 50%;
+                width: 100%;
                 transition: transform 100ms;
             }
             
             .remedio>p {
                 width: 100%;
-                height: 20px;
+                /* height: 30px; */
                 position: relative;
                 /* border: black 1px solid; */
                 text-align: center;
@@ -158,11 +159,12 @@
             
             .inform {
                 position: relative;
-                justify-content: space-between;
+                justify-content: center;
                 display: grid;
                 text-align: center;
                 grid-gap: 10px;
                 grid-template-columns: auto;
+                /* border: solid red 1px; */
             }
             
             .inform>div {
@@ -188,12 +190,12 @@
             #all-infantil,
             #all-suplemento {
                 display: grid;
-                grid-template-columns: auto auto auto auto;
-                grid-template-rows: auto auto auto auto;
+                grid-template-columns: repeat(4, 220px);
+                grid-template-rows: auto;
                 /* grid-template-rows: auto; */
-                /* border: solid red 1px; */
+                /* border: solid rgb(218, 33, 193) 1px; */
                 justify-content: center;
-                width: 90%;
+                width: 100%;
                 position: relative;
                 left: 5%;
                 padding: 50px;

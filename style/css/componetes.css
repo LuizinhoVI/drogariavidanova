@@ -1,212 +1,211 @@
-            .btt-cor {
-                list-style: square inside;
-                text-align: center;
-            }
-            
-            .tema {
-                top: 25px;
-                position: relative;
-                margin-bottom: 50px;
-                font-size: 80px;
-                text-shadow: 2px 2px 5px black;
-                color: green;
-            }
-            
-            li {
-                padding: -8px;
-                border-radius: 15px;
-            }
-            
-            .remedio {
-                padding: 50px;
-                text-align: center;
-                display: block;
-                /* border: solid 1px rgb(65, 233, 31); */
-            }
-            
-            .remedio>img:hover {
-                transform: scale(1.2);
-                top: -5px;
-            }
-            
-            .remedio>img {
-                position: relative;
-                width: 100%;
-                transition: transform 100ms;
-            }
-            
-            .remedio>p {
-                width: 100%;
-                /* height: 30px; */
-                position: relative;
-                /* border: black 1px solid; */
-                text-align: center;
-                font-size: 19px;
-                font-family: 'Times New Roman', Times, serif;
-            }
-            
-            .click:hover {
-                background-color: rgb(44, 129, 55);
-                box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
-                color: rgb(255, 255, 255);
-            }
-            
-            .click {
-                cursor: pointer;
-                border: solid rgb(75, 99, 68) 3px;
-                border-radius: 10px;
-                padding: 10px;
-            }
-            
-            .click-1:hover {
-                cursor: pointer;
-                text-shadow: black 1px 1px 2px;
-            }
-            
-            ul>div {
-                position: relative;
-                top: 15px;
-            }
-            
-            .estilo {
-                width: 20%;
-                text-shadow: black 1px 2px 5px;
-            }
-            
-            .entrada {
-                width: 75vw;
-                position: relative;
-                left: 35vh;
-            }
-            
-            #entrada {
-                border: solid blue 1px;
-                border-radius: 20px;
-                box-shadow: 0px 0px 15px 0px green;
-                width: 100%;
-                height: 20px;
-                padding: 20px;
-                font-size: 30px;
-                position: relative;
-                top: 10px;
-                text-align: center;
-                color: green;
-            }
-            
-            #entrada::placeholder {
-                text-align: center;
-            }
-            
-            .geral {
-                display: grid;
-                grid-template-columns: auto auto auto auto auto auto;
-                justify-content: center;
-                position: relative;
-                font-size: 20px;
-                grid-gap: 10px;
-            }
-            
-            .slide {
-                max-width: 60%;
-                max-height: 80%;
-                width: auto;
-                height: auto;
-                box-shadow: 0px 0px 15px 0px black;
-            }
-            
-            .meio {
-                position: relative;
-                left: 50%;
-                transform: translateX(-50%);
-            }
-            
-            .carousel>img {
-                max-height: 200px;
-                width: auto;
-                height: auto;
-            }
-            
-            .geral>p {
-                border-radius: 20px;
-                border: 5px solid #3c7c52;
-                width: 200px;
-            }
-            
-            .geral>p:hover {
-                background: #3c7e53;
-                box-shadow: 0px 0px 10px 0px #3c7c52;
-                cursor: pointer;
-                color: #ffffff;
-            }
-            
-            .icones {
-                /* border: solid red 1px; */
-            }
-            
-            a {
-                text-decoration: none !important;
-                color: black;
-            }
-            /* massa voxx */
-            
-            .voxx-marca {
-                display: none;
-            }
-            
-            .medicamento-generico {
-                font-size: 20px;
-            }
-            
-            .inform {
-                position: relative;
-                justify-content: center;
-                display: grid;
-                text-align: center;
-                grid-gap: 10px;
-                grid-template-columns: auto;
-                /* border: solid red 1px; */
-            }
-            
-            .inform>div {
-                box-shadow: 0px 0px 5px 0px;
-                border-radius: 10px;
-                font-size: 18px;
-            }
-            
-            .alinhamento {
-                position: relative;
-                left: -40%;
-            }
-            
-            #all-remedio>div,
-            #all-cosmeticos>div,
-            #all-infantil>div,
-            #all-suplemento>div {
-                display: block;
-            }
-            
-            #all-remedio,
-            #all-cosmeticos,
-            #all-infantil,
-            #all-suplemento {
-                display: grid;
-                grid-template-columns: repeat(4, 220px);
-                grid-template-rows: auto;
-                /* grid-template-rows: auto; */
-                /* border: solid rgb(218, 33, 193) 1px; */
-                justify-content: center;
-                width: 100%;
-                position: relative;
-                left: 5%;
-                padding: 50px;
-                grid-gap: 10px;
-            }
-            
-            .x {
-                position: absolute;
-                width: 45px;
-                right: 0;
-                top: 12px;
-                cursor: pointer;
-                display: none;
-            }
+.btt-cor {
+    list-style: square inside;
+    text-align: center;
+}
+
+.tema {
+    top: 25px;
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 80px;
+    text-shadow: 2px 2px 5px black;
+    color: green;
+}
+
+li {
+    padding: -8px;
+    border-radius: 15px;
+}
+
+.remedio {
+    padding: 50px;
+    text-align: center;
+    display: block;
+    /* border: solid 1px rgb(65, 233, 31); */
+}
+
+.remedio>img:hover {
+    transform: scale(1.2);
+    top: -5px;
+}
+
+.remedio>img {
+    position: relative;
+    width: 100%;
+    transition: transform 100ms;
+}
+
+.remedio>p {
+    width: 100%;
+    /* height: 30px; */
+    position: relative;
+    /* border: black 1px solid; */
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.click:hover {
+    background-color: rgb(44, 129, 55);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.click {
+    cursor: pointer;
+    border: solid rgb(75, 99, 68) 3px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.click-1:hover {
+    cursor: pointer;
+    text-shadow: black 1px 1px 2px;
+}
+
+ul>div {
+    position: relative;
+    top: 15px;
+}
+
+.estilo {
+    width: 20%;
+    text-shadow: black 1px 2px 5px;
+}
+
+.entrada {
+    width: 75vw;
+    position: relative;
+    left: 35vh;
+    border: solid red 1px;
+}
+
+#entrada {
+    border: solid blue 1px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px green;
+    width: 80vh;
+    height: 20px;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    color: green;
+}
+
+#entrada::placeholder {
+    text-align: center;
+}
+
+.geral {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    position: relative;
+    font-size: 20px;
+    grid-gap: 10px;
+}
+
+.slide {
+    max-width: 60%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 15px 0px black;
+}
+
+.meio {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel>img {
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.geral>p {
+    border-radius: 20px;
+    border: 5px solid #3c7c52;
+    width: 200px;
+}
+
+.geral>p:hover {
+    background: #3c7e53;
+    box-shadow: 0px 0px 10px 0px #3c7c52;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+
+/* massa voxx */
+
+.voxx-marca {
+    display: none;
+}
+
+.medicamento-generico {
+    font-size: 20px;
+}
+
+.inform {
+    position: relative;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    /* border: solid red 1px; */
+}
+
+.inform>div {
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.alinhamento {
+    position: relative;
+    left: -40%;
+}
+
+#all-remedio>div,
+#all-cosmeticos>div,
+#all-infantil>div,
+#all-suplemento>div {
+    display: block;
+}
+
+#all-remedio,
+#all-cosmeticos,
+#all-infantil,
+#all-suplemento {
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    grid-template-rows: auto;
+    /* grid-template-rows: auto; */
+    /* border: solid rgb(218, 33, 193) 1px; */
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    left: 5%;
+    padding: 50px;
+    grid-gap: 10px;
+}
+
+.x {
+    position: absolute;
+    width: 45px;
+    right: 0;
+    top: 12px;
+    cursor: pointer;
+    display: none;
+}

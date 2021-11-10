@@ -77,7 +77,7 @@ ul>div {
     width: 75vw;
     position: relative;
     left: 35vh;
-    border: solid red 1px;
+    /* border: solid red 1 px; */
 }
 
 #entrada {

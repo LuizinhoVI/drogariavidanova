@@ -31,9 +31,12 @@ h6 {
 }
 
 #barra-inicial>div {
-    border: solid red 1px;
     position: relative;
-    left: -70px;
+    left: -130px;
+}
+
+#bt {
+    background: red;
 }
 
 #barra-inicial>div>a {

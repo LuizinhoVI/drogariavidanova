@@ -81,6 +81,7 @@ ul>div {
 
 .entrada {
     position: absolute;
+    right: 20px;
 }
 
 #entrada {
@@ -90,7 +91,7 @@ ul>div {
     width: 80vh;
     height: 10px;
     padding: 15px;
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
     top: 5px;
     text-align: center;

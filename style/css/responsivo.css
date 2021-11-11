@@ -50,12 +50,13 @@
             }
             .entrada {
                 position: fixed;
-                top: 70px;
+                top: 80px;
                 left: 0;
                 width: 100%;
             }
             #entrada {
-                left: 0%;
+                top: 21px;
+                left: 10vw;
                 width: 70%;
                 display: none;
             }
@@ -67,7 +68,7 @@
             .x {
                 position: absolute;
                 width: 45px;
-                right: 10px;
+                right: 7vw;
                 top: 12px;
                 cursor: pointer;
                 display: none;

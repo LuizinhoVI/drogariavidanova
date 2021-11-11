@@ -3,7 +3,7 @@
      var abrir1 = document.getElementById('suplemento').style;
      var paginas = document.getElementById('paginas').style;
      var temas = document.getElementById('temas');
-     var fechar = document.getElementById('temas');
+     var fechar = document.getElementById('suplementos');
 
      if (abrir.display == "none") {
          abrir.display = "block";
@@ -11,12 +11,14 @@
          paginas.display = "block"
          temas.style.display = "block";
          temas.innerHTML = "Suplementos";
+         fechar.style.display = "block"
 
      } else {
          abrir.display = "none";
          abrir1.display = "none";
          paginas.display = "none";
          temas.style.display = "none";
+         fechar.style.display = "none";
 
      }
 
@@ -98,7 +100,7 @@
      var abrir = document.getElementById('medicamentos').style;
      var remedio = document.getElementById('remedio').style;
      var temas = document.getElementById('temas');
-     //  var fechar = document.getElementsByClassName('fechar');
+     var fechar = document.getElementsByClassName('fechar');
 
 
      if (abrir.display == "none") {

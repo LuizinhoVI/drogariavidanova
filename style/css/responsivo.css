@@ -4,16 +4,15 @@
             #all-infantil,
             #all-suplemento {
                 display: grid;
-                grid-template-columns: repeat(3, 150px);
+                grid-template-columns: repeat(2, 200px);
                 /* grid-template-rows: 300px; */
                 /* grid-template-rows: auto; */
                 /* border: solid red 1px; */
                 /* justify-content: center; */
                 /* width: 95%; */
                 position: relative;
-                left: 5%;
                 padding: 2px;
-                grid-gap: 10px;
+                grid-gap: 5px;
             }
             #all-remedio>div,
             #all-cosmeticos>div,
@@ -24,7 +23,7 @@
                 padding: 0;
             }
             .remedio>img {
-                width: 100px;
+                width: 130px;
             }
             .remedio>p {
                 font-size: 12px;

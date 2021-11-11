@@ -75,4 +75,7 @@
             #mySidebar {
                 left: 0;
             }
+            #barra-inicial>div {
+                display: none;
+            }
         }

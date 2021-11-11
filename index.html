@@ -50,6 +50,14 @@
     <div class="w3-top">
         <div class="w3-bar  w3-top w3-left-align w3-large" id="barra-inicial">
 
+            <div class="w3-bar">
+                <a href="#tema" class="w3-bar-item w3-button">Inicio</a>
+                <a href="#local" class="w3-bar-item w3-button">Localização</a>
+                <a href="#contato" class="w3-bar-item w3-button">Contato</a>
+                <a href="#sobre" class="w3-bar-item w3-button">Sobre</a>
+
+            </div>
+
             <div align="center" class="entrada">
 
                 <form action="">
@@ -57,10 +65,16 @@
                     <input type="text" onkeyup="pesquisar_cosmetico();pesquisar();pesquisar_areainfantil();pesquisar_suplemento();pesquisar()" id="entrada" placeholder="Procurar">
                     <img src="style/img/icon/x.png" class="x" id="x" alt="fechar" onclick="pesqui_close()">
                 </form>
+
+
             </div>
+            <!-- para computador -->
 
 
 
+
+
+            <!-- para celular  -->
             <a href="#tema" class="logo" id="inipesquisar" onclick="pesqui_open()">
                 <img href="" src="style/img/icon/lupa.png" id="logo">
                 <div>pesquisar</div>
@@ -112,16 +126,16 @@
         <div id="medicamentos" class="alinhamento" style="display: none; text-align: right;">
             <br>
             <li class="click-1">
-                Genérico ( )
+                Genérico
             </li>
-
+            <!-- 
             <li class="click-1">
                 Vitamina( )
             </li>
 
             <li class="click-1">Antibiótico ( )</li>
 
-            <li class="click-1">Ético( )</li>
+            <li class="click-1">Ético( )</li> -->
 
         </div>
 
@@ -140,16 +154,16 @@
         <div id="cosmeticos" class="alinhamento" style="display: none; text-align: right;">
 
             <li onclick="cabelo()" class="click-1">
-                Cabelo ( )
+                Cabelo
             </li>
 
             <li class="click-1">
-                Maquiagem ( )
+                Maquiagem
             </li>
 
-            <li class="click-1">Pele ( )</li>
+            <li class="click-1">Pele</li>
 
-            <li class="click-1">Perfume ( )</li>
+            <li class="click-1">Perfume </li>
 
         </div>
 
@@ -302,10 +316,12 @@
             </li>
 
             <li class="click-1">
+                Vaso de água
+            </li>
+            <li class="click-1">
                 Brinquedos
             </li>
 
-            <li class="click-1"></li>
 
             <li class="click-1">Fraldas</li>
 
@@ -313,7 +329,7 @@
         </div>
     </nav>
 
-    <p align="center" style="position: absolute; top:20px;">AVISO!! SITE EM MANUTENÇÃO </p>
+
     <!-- Overlay effect when opening sidebar on small screens -->
     <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
@@ -323,7 +339,7 @@
         <div class="w3-row w3-padding-64">
             <div class=" w3-container">
 
-                <h1 class=" w3-center tema" id="tema"> Drogaria Vida Nova</h1>
+                <h1 class=" w3-center tema" id="tema"> Drogaria Vida Nova </h1>
 
 
                 <!-- nome temas -->
@@ -431,7 +447,7 @@
         <hr>
         <div class="w3-row w3-padding-64">
             <div class=" w3-container">
-                <div align="center">
+                <div align="center" id="local">
 
                     <h1 class="w3-text-teal w3-center">Localização</h1>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8003537.020440558!2d-46.600781024052985!3d-11.62498505836493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x705694c1fad56ad%3A0xc04de5de9039d99!2sDrogaria%20Vit%C3%B3ria!5e0!3m2!1spt-BR!2sbr!4v1633719101393!5m2!1spt-BR!2sbr"
@@ -447,7 +463,7 @@
                 <div align="center" class="inform">
 
 
-                    <div align="center"> Tudo sobre a farmácia aqui... </div>
+                    <div align="center" id="sobre"> Tudo sobre a farmácia aqui... </div>
 
 
 
@@ -457,7 +473,7 @@
         </div>
         <div class="w3-row w3-padding-64">
             <div class=" w3-container">
-                <h1 class="w3-text-teal w3-center ">Forma de pagamento</h1>
+                <h1 class="w3-text-teal w3-center " id="contato">Forma de pagamento</h1>
                 <div align="center" class="inform">
 
 

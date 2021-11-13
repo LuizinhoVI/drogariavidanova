@@ -27,12 +27,7 @@ li {
 .remedio>img:hover {
     transform: scale(1.2);
     top: -5px;
-}
-
-.remedio>img:active {
-    width: 50%;
-    position: absolute;
-    top: 50vw;
+    cursor: pointer;
 }
 
 .remedio>img {
@@ -62,11 +57,16 @@ li {
     border: solid rgb(75, 99, 68) 3px;
     border-radius: 10px;
     padding: 10px;
+    text-align: left;
 }
 
 .click-1:hover {
     cursor: pointer;
     text-shadow: black 1px 1px 2px;
+}
+
+.click-1 {
+    text-align: left;
 }
 
 ul>div {
@@ -80,8 +80,11 @@ ul>div {
 }
 
 .entrada {
-    position: absolute;
-    right: 20px;
+    position: fixed;
+    top: 80px;
+    left: 50vh;
+    width: 80vh;
+    /* border: solid red 1px; */
 }
 
 #entrada {
@@ -94,8 +97,10 @@ ul>div {
     font-size: 20px;
     position: relative;
     top: 5px;
+    left: 40vh;
     text-align: center;
     color: green;
+    display: block;
 }
 
 #entrada::placeholder {
@@ -178,7 +183,7 @@ a {
 
 .alinhamento {
     position: relative;
-    left: -40%;
+    left: 10%;
 }
 
 #all-remedio>div,
@@ -207,8 +212,12 @@ a {
 .x {
     position: absolute;
     width: 45px;
-    right: 0;
-    top: 12px;
+    right: -50vh;
+    top: 2px;
     cursor: pointer;
+    display: block;
+}
+
+.hidden {
     display: none;
 }

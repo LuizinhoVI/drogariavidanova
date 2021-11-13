@@ -65,7 +65,7 @@
                 grid-template-rows: auto;
                 grid-gap: 10px;
             }
-            .x {
+            #x {
                 position: absolute;
                 width: 45px;
                 right: 7vw;

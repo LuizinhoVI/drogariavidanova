@@ -67,8 +67,8 @@
 
                 <form action="">
 
-                    <input type="text" onkeyup="pesquisar_cosmetico();pesquisar();pesquisar_areainfantil();pesquisar_suplemento();pesquisar()" id="entrada" placeholder="Procurar" style="display: block;">
-                    <img src="style/img/icon/x.png" class="x" id="x" alt="fechar" onclick="pesqui_close()" style="display: block;">
+                    <input type="text" onkeyup="pesquisar_cosmetico();pesquisar();pesquisar_areainfantil();pesquisar_suplemento();pesquisar()" id="entrada" placeholder="Procurar" style="display: none;">
+                    <img src="style/img/icon/x.png" class="x" id="x" alt="fechar" onclick="pesqui_close()" style="display: none;">
                 </form>
 
 
@@ -117,7 +117,7 @@
     </div>
 
     <!-- Sidebar de navegação -->
-    <nav class="w3-sidebar hidden w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+    <nav class="w3-sidebar  w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
             <i class="fa fa-remove"></i>
         </a>
@@ -368,7 +368,7 @@
                 <div id="cosmetico" class="fechar" style="display: none;">
 
                 </div>
-                <div id="areainfantil" class="fechar" style="display: none;">
+                <div id="areainfantil" class="fechar" style="display: block;">
 
                 </div>
 
@@ -511,28 +511,6 @@
         <!-- END MAIN -->
     </div>
     <script src="js/script.js">
-        // Get the Sidebar
-        var mySidebar = document.getElementById("mySidebar");
-
-        // Get the DIV with overlay effect
-        var overlayBg = document.getElementById("myOverlay");
-
-        // Toggle between showing and hiding the sidebar, and add overlay effect
-        function w3_open() {
-            if (mySidebar.style.display === 'block') {
-                mySidebar.style.display = 'none';
-                overlayBg.style.display = "none";
-            } else {
-                mySidebar.style.display = 'block';
-                overlayBg.style.display = "block";
-            }
-        }
-
-        // Close the sidebar with the close button
-        function w3_close() {
-            mySidebar.style.display = "none";
-            overlayBg.style.display = "none";
-        }
     </script>
 
 

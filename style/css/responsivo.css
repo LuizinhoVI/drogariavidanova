@@ -11,16 +11,20 @@
                 /* justify-content: center; */
                 /* width: 95%; */
                 position: relative;
-                padding: 0px;
+                padding: 10px;
                 grid-gap: 50px;
+                box-shadow: 0px 0px 0px 0px;
             }
             #all-remedio>div,
             #all-cosmeticos>div,
             #all-infantil>div,
             #all-suplemento>div {
+                position: relative;
                 width: 100%;
+                /* left: -20px; */
                 font-size: 12px;
-                padding: 0;
+                /* padding: 20px; */
+                border: solid red 1px;
             }
             .remedio>img {
                 width: 150px;
@@ -94,6 +98,12 @@
                 left: 1vw;
                 transform: translateX(-8vw);
                 /* border-radius: 20px; */
+            }
+            .geral {
+                grid-template-columns: repeat(3, 120px);
+            }
+            .geral>p {
+                font-size: 12px;
             }
         }
         

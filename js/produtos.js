@@ -160,15 +160,15 @@
 
          temas.color = "white"
          temas.background = "#3c7c52"
-         temas.border = "solid 5px white"
-         temas.boxShadow = "0px 0px 10px 0px blue"
+         temas.border = "solid 1px white"
+         temas.boxShadow = "0px 0px 10px 0px green"
          contador++;
      } else {
 
          temas.color = "black"
          temas.background = "white"
-         temas.border = "solid 5px #3c7c52"
-         temas.boxShadow = "0px 0px 0px 0px black"
+         temas.border = "solid 1px #3c7c52"
+         temas.boxShadow = "0px 0px 0px 0px green"
          contador--;
      }
 
@@ -182,15 +182,15 @@
 
          subtema.color = "white"
          subtema.background = "#3c7c52"
-         subtema.border = "solid 5px white"
-         subtema.boxShadow = "0px 0px 10px 0px blue"
+         subtema.border = "solid 1px white"
+         subtema.boxShadow = "0px 0px 10px 0px green"
          contador++;
      } else {
 
          subtema.color = "black"
          subtema.background = "white"
-         subtema.border = "solid 5px #3c7c52"
-         subtema.boxShadow = "0px 0px 0px 0px black"
+         subtema.border = "solid 1px #3c7c52"
+         subtema.boxShadow = "0px 0px 0px 0px green"
          contador--;
      }
 

@@ -11,7 +11,7 @@
                 /* justify-content: center; */
                 /* width: 95%; */
                 position: relative;
-                padding: 2px;
+                padding: 0px;
                 grid-gap: 50px;
             }
             #all-remedio>div,
@@ -23,14 +23,15 @@
                 padding: 0;
             }
             .remedio>img {
-                width: 130px;
+                width: 150px;
             }
             .remedio>p {
+                left: 50%;
                 font-size: 12px;
             }
             .remedio {
                 position: relative;
-                left: -30px;
+                margin-left: -40px;
             }
             .slide {
                 max-width: 100%;

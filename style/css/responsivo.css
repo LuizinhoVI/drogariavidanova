@@ -4,7 +4,7 @@
             #all-infantil,
             #all-suplemento {
                 display: grid;
-                grid-template-columns: repeat(2, 200px);
+                grid-template-columns: repeat(2, 160px);
                 /* grid-template-rows: 300px; */
                 /* grid-template-rows: auto; */
                 /* border: solid red 1px; */
@@ -85,7 +85,7 @@
                 display: none;
             }
             #carouselExampleFade {
-                width: 75vh;
+                width: 70vh;
                 left: 11vw;
                 transform: translateX(-8vw);
                 /* border-radius: 20px; */

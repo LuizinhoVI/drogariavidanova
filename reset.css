@@ -18,7 +18,7 @@ main {
     position: relative;
     margin-top: 90px;
     left: 20vw;
-    transform: translateX();
+    /* transform: translateX(); */
     width: 40vw;
 }
 

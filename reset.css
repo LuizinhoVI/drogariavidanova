@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 100%;
+    border: solid red 1;
+}
+
+.slid {
+    box-shadow: 0px 0px 10px 0px;
+    position: relative;
+    margin-top: 10px;
+}

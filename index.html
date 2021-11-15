@@ -1,526 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Drogaria vida nova</title>
 
 <head>
-    <!--Carrega a biblioteca via CDN. Se vc já carrega outra dentro do seu projeto não precisa-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- script do bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- fim do bootstrap  -->
     <link rel="shortcut icon" href="style/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- carrosel -->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="js/icones.js"></script>
-    <!-- carrosel -->
-
-    <link rel="stylesheet" href="style/css/reset.css">
-    <link rel="stylesheet" href="style/css/componetes.css">
-    <link rel="stylesheet" href="style/css/responsivo.css">
-
-    <!-- <script src="js/script.js"></script>
-    <script src="js/produtos.js"></script> -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Drogaria vida nova</title>
 
 
-    <script>
-        $(function() {
 
-            $('#nometema').load("style/img/nometema/nometema.html");
-            $('#suplemento').load("style/img/suplemento/suplementos.html");
-            $('#cosmetico').load("style/img/cosmeticos/cosmeticos.html");
-            $('#remedio').load("style/img/remedio/remedios.html");
-            $('#areainfantil').load("style/img/areainfantil/infantil.html");
-
-        });
-    </script>
-
+    <style>
+        .navbar {
+            background: green;
+        }
+    </style>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark " aria-label="Ninth navbar example">
+        <div class="container-xl">
+
+            <a class="navbar-brand " style="font-size: 22px;" href="#">Drogaria Vida Nova</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07XL">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 
-    <!-- barra de navegação -->
-    <div class="w3-top">
-        <div class="w3-bar  w3-top w3-left-align w3-large" id="barra-inicial">
+
+                    <!-- medicamentos -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active " href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Medicamentos</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                            <li><a class="dropdown-item" href="#">Todos de A-Z</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Genéricos de a-z</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Anti-inflamatórios</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Anticoncepcionais</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Asma</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Calmantes</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Congestão Nasal</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Diabetes</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">Dor e Febre</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Gastrite</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Hipertensão</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- cosmeticos -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Cosméticos</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                            <li><a class="dropdown-item" href="#">Maquiagem</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Cabelo</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Perfume</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Alimentação</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- suplementos -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Vitaminas e Suplementos</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                            <li><a class="dropdown-item" href="#">Vitaminas</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Suplementos</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <!-- bebê -->
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle active" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Bebê</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                            <li><a class="dropdown-item" href="#">Amamentação</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Cuidados</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Fraldas e Trocas</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Alimentação</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Banho</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Alimentação</a>
+                            </li>
+                        </ul>
+                    </li>
 
 
-
-
-            <!-- menu escrito -->
-
-            <!-- <div class="w3-bar">
-                <a href="#tema" class="w3-bar-item w3-button " id="bt">Inicio</a>
-                <a href="#local" class="w3-bar-item w3-button bt">Localização</a>
-                <a href="#sobre" class="w3-bar-item w3-button bt">Sobre</a>
-                <a href="#contato" class="w3-bar-item w3-button bt">Contato</a>
-
-            </div> -->
-
-            <nav align="center" class="entrada">
-
-                <form action="">
-
-                    <input type="text" onkeyup="pesquisar_cosmetico();pesquisar();pesquisar_areainfantil();pesquisar_suplemento();pesquisar()" id="entrada" placeholder="Procurar" style="display: none;">
-                    <img src="style/img/icon/x.png" class="x" id="x" alt="fechar" onclick="pesqui_close()" style="display: none;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+                    </li>
+                </ul>
+                <form>
+                    <input class="form-control" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
                 </form>
 
-
-            </nav>
-            <!-- para computador -->
-
-
-
-
-
-            <!-- para celular  -->
-            <a href="#tema" class="logo" id="inipesquisar" onclick="pesqui_open()">
-                <img href="" src="style/img/icon/lupa.png" id="logo">
-                <div>pesquisar</div>
-            </a>
-            <a href="#tema" onclick="open_infantil()">
-                <img href="" src="style/img/icon/home.png" id="logo">
-                <div>Infantil</div>
-            </a>
-
-            <a onclick="open_cosmetico()">
-                <img href="" src="style/img/icon/cosmetico.png" id="logo">
-                <div>Cosmeticos</div>
-            </a>
-            <a onclick="open_remedio()">
-                <img href="" src="style/img/icon/remedio.png" id="logo">
-                <div>Remédios</div>
-            </a>
-            <a onclick="open_suplem()">
-                <img href="" src="style/img/icon/suplemento.png" id="logo">
-                <div>Suplementos</div>
-            </a>
-
-
-            <a href="javascript:void(0)" onclick="w3_open()">
-                <img href="" src="style/img/icon/list1.png" id="logo">
-                <div>Menu</div>
-            </a>
-
-
-
-
-
-
-        </div>
-    </div>
-
-    <!-- Sidebar de navegação -->
-    <nav class="w3-sidebar  w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
-            <i class="fa fa-remove"></i>
-        </a>
-
-        <h4 class="w3-bar-item w3-center"><img src="style/img/logo.png" class="estilo">
-        </h4>
-        <br>
-        <ul onclick="medicamentos()" class="btt-cor click">Medicamentos +
-        </ul>
-
-        <div id="medicamentos" class="alinhamento" style="display: none; text-align: right;">
-            <br>
-            <li class="click-1">
-                Genérico
-            </li>
-            <!-- 
-            <li class="click-1">
-                Vitamina( )
-            </li>
-
-            <li class="click-1">Antibiótico ( )</li>
-
-            <li class="click-1">Ético( )</li> -->
-
-        </div>
-
-        <br>
-
-        <!-- cosmeticos -->
-        <a href="#tema">
-
-            <ul onclick="cosmeticos()" class=" btt-cor click">
-
-                Cosméticos +
-
-            </ul>
-        </a>
-
-        <div id="cosmeticos" class="alinhamento" style="display: none; text-align: left;">
-
-            <li onclick="cabelo()" class="click-1">
-                Cabelo
-            </li>
-
-            <li class="click-1">
-                Maquiagem
-            </li>
-
-            <li class="click-1">Pele</li>
-
-            <li class="click-1">Perfume </li>
-
-        </div>
-
-
-        <div id="cosmeticos" style="display: none;">
-
-            <ul>
-                <b>
-
-                             
-                          </b>
-            </ul>
-
-            <nav style="display: none;" id="cabelo">
-
-                <li>Haskell (0)</li>
-                <ul>
-                    <li>
-                        Shampoo
-                    </li>
-                    <li>
-                        Condicionador
-                    </li>
-                    <li>Máscara de hidratação</li>
-                </ul>
-                <li>Amávia ( 0 )</li>
-                <ul>
-                    <li>
-                        Shampoo
-                    </li>
-                    <li>
-                        Condicionador
-                    </li>
-                    <li>Máscara</li>
-                </ul>
-
-                <li>Makeliss ( 0 )</li>
-                <ul>
-                    <li>
-                        Shampoo
-                    </li>
-                    <li>
-                        Condicionador
-                    </li>
-                    <li>Máscara</li>
-                </ul>
-            </nav>
-
-            <!-- parte da maquiagem  -->
-            <ul class="click-1" onclick="maquiagem()" id="maquiagem">
-                <b>
-                             ( 4 )
-
-                  </b>
-
-            </ul>
-            <nav style="display: block;" id="pro-maquiagem">
-
-
-                <li>Batom ( 5 )</li>
-                <ul style="display: none;" class="batom">
-                    <li>
-                        Basic
-                    </li>
-                    <li>
-                        Tint
-                    </li>
-                    <li>Gliter</li>
-                    <li>Matte</li>
-                    <li>Iluminador</li>
-
-                </ul>
-
-                <li>Base ( 4 )</li>
-                <ul style="display: none;" class="base">
-                    <li>
-                        Basic
-                    </li>
-                    <li>
-                        Matte
-                    </li>
-                    <li>HD</li>
-                    <li>Base</li>
-                </ul>
-
-                <li>Esmalte ( 0 )</li>
-                <ul style="display: none;" class="esmalte">
-                    <li>
-                        Cremoso
-                    </li>
-                    <li>
-                        Base</li>
-                    <li>Gel</li>
-                </ul>
-                <li>Pó ( 4 )</li>
-
-                <ul style="display: none;" class="po">
-                    <li>
-                        Basic
-                    </li>
-                    <li>
-                        HDD
-                    </li>
-                    <li>Compacto</li>
-                    <li>Iluminador</li>
-
-
-                </ul>
-            </nav>
-
-
-            </ul>
-            <br>
-
-        </div>
-        </div>
-        <br>
-        <!-- segunda parte  -->
-        <a href="#tema">
-
-            <nav onclick="suplementos(),voxx()" class="btt-cor click">Suplementos +</nav>
-            <ul>
-        </a>
-        <div id="suplementos" class="alinhamento" style="display: none; text-align: right;">
-            <div id="massa">
-
-
-                <li class="click-1">Glutamina</li>
-                <li class="click-1">Creatina</li>
-                <li class="click-1"> BCAA</li>
-                <li class="click-1">Hipercalórico</li>
-                <li class="click-1">100% isolada</li>
-                <li class="click-1">Whey proten</li>
             </div>
-
-        </div>
-
-
-        </ul>
-        <br>
-
-        <ul onclick="areainfantil()" class="btt-cor click">Área infantil +
-        </ul>
-
-
-        <div id="infantil" class="alinhamento" style="display: none; text-align: right;">
-
-            <li class="click-1">
-                Bicos
-            </li>
-
-            <li class="click-1">
-                Vaso de água
-            </li>
-            <li class="click-1">
-                Brinquedos
-            </li>
-
-
-            <li class="click-1">Fraldas</li>
-
-        </div>
         </div>
     </nav>
 
 
-    <!-- Overlay effect when opening sidebar on small screens -->
-    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    <main>
 
-    <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-    <div class="w3-main" id="main" style="margin-left:250px">
-
-        <div class="w3-row w3-padding-64">
-            <div class=" w3-container">
-
-                <h1 class=" w3-center tema" id="tema"> Drogaria Vida Nova </h1>
-
-
-                <!-- nome temas -->
-                <div id="nometema">
-
+        <div id="carouselExampleFade" class="slid carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="style/img/slide/slid1.jpg" style="width: 100vw;" class="d-block w-100" alt="...">
                 </div>
-
-                <!-- tema suplemento -->
-
-
-                <div id="suplemento" class="fechar" style="display: none;">
-
+                <div class="carousel-item">
+                    <img src="style/img/slide/slid2.jpg" class="d-block w-100" alt="...">
                 </div>
-
-
-                <!-- tema de remedioas -->
-                <div id="remedio" class="fechar" style="display: none;">
-
-                </div>
-                <!-- tema de cosmeticos -->
-                <div id="cosmetico" class="fechar" style="display: none;">
-
-                </div>
-                <div id="areainfantil" class="fechar" style="display: block;">
-
-                </div>
-
-
-
-
-
 
             </div>
-
-            <!-- Pagination -->
-            <div class="w3-center w3-padding-32" id="paginas" style="display: none;">
-                <div class="w3-bar">
-                    <a class="w3-button w3-black" href="#">1</a>
-
-                    <a class="w3-button w3-hover-black" href="#">»</a>
-                </div>
-            </div>
-
-
-
-
-            <div class="w3-row w3-center">
-                <div class="w3-container w3-center">
-                    <h1 class="w3-text-teal" align="center">Farmácia</h1>
-
-                    <div id="myCarousel" class="carousel slide meio w3-center" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                            <li data-target="#myCarousel" data-slide-to="3"></li>
-                            <li data-target="#myCarousel" data-slide-to="4"></li>
-                            <li data-target="#myCarousel" data-slide-to="5"></li>
-                            <li data-target="#myCarousel" data-slide-to="6"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner carousel w3-center" style="width:100%;">
-                            <div class="item active">
-                                <img src="style/img/slide/1.jpg" alt="Los Angeles">
-                            </div>
-
-                            <div class="item">
-                                <img src="style/img/slide/2.jpg" alt="Los Angeles">
-                            </div>
-
-                            <div class="item">
-                                <img src="style/img/slide/3.jpg" alt="Los Angeles">
-                            </div>
-                            <div class="item">
-                                <img src="style/img/slide/4.jpg" alt="Los Angeles">
-                            </div>
-                            <div class="item">
-                                <img src="style/img/slide/5.jpg" alt="Los Angeles">
-                            </div>
-                            <div class="item">
-                                <img src="style/img/slide/6.jpg" alt="Los Angeles">
-                            </div>
-                            <div class="item">
-                                <img src="style/img/slide/7.jpg" alt="Los Angeles">
-                            </div>
-                        </div>
-
-                        <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                            <span class="sr-only">Voltar</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                            <span class="sr-only">Próximo</span>
-
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <hr>
-        <div class="w3-row w3-padding-64">
-            <div class=" w3-container">
-                <div align="center" id="local">
-
-                    <h1 class="w3-text-teal w3-center">Localização</h1>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8003537.020440558!2d-46.600781024052985!3d-11.62498505836493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x705694c1fad56ad%3A0xc04de5de9039d99!2sDrogaria%20Vit%C3%B3ria!5e0!3m2!1spt-BR!2sbr!4v1633719101393!5m2!1spt-BR!2sbr"
-                        width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-
-        </div>
-        .
-        <div class="w3-row w3-padding-64">
-            <div class=" w3-container">
-                <h1 class="w3-text-teal w3-center ">Sobre</h1>
-                <div align="center" class="inform">
-
-
-                    <div align="center" id="sobre"> Tudo sobre a farmácia aqui... </div>
-
-
-
-                </div>
-            </div>
-
-        </div>
-        <div class="w3-row w3-padding-64">
-            <div class=" w3-container">
-                <h1 class="w3-text-teal w3-center " id="contato">Forma de pagamento</h1>
-                <div align="center" class="inform">
-
-
-
-                    <p align="center">
-                        Aceitamos todos os cartões!
-                        <p align="center">
-
-                            💳 Dúvidas via direct do instagram ou whatsapp📍
-                        </p>
-                    </p>
-                    <div>Tel: (79) 3263-1679 / (79) 99627-0410📞</div>
-
-                </div>
-            </div>
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
-        <footer id="myFooter">
 
 
-            <div class="w3-container">
-                <p align="center">CopyRight © Medicamentos e Cosméticos
-                    <a href="https://www.instagram.com/drogariavidanova/" target="_blank">drogaria vida nova</a>
-
-                </p>
-            </div>
-        </footer>
-
-        <!-- END MAIN -->
-    </div>
-    <script src="js/script.js">
-    </script>
-
-
-
-
-
-
-
+        <div class="b-example-divider"></div>
+        <div>teste</div>
+    </main>
 </body>
-
-
 
 </html>

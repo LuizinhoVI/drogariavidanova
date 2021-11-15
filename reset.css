@@ -9,12 +9,21 @@ html {
 
 main {
     display: grid;
-    grid-template-columns: 100%;
+    /* grid-template-columns: 100%; */
     border: solid red 1;
 }
 
 .slid {
     box-shadow: 0px 0px 10px 0px;
     position: relative;
-    margin-top: 10px;
+    margin-top: 90px;
+    left: 20vw;
+    transform: translateX();
+    width: 40vw;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }

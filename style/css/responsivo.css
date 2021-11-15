@@ -84,4 +84,10 @@
             #barra-inicial>div {
                 display: none;
             }
+            #carouselExampleFade {
+                width: 75vh;
+                left: 11vw;
+                transform: translateX(-8vw);
+                /* border-radius: 20px; */
+            }
         }

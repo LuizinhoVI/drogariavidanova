@@ -7,30 +7,36 @@
                 grid-template-columns: repeat(2, 80px);
                 /* grid-template-rows: 300px; */
                 /* grid-template-rows: auto; */
-                border: solid red 1px;
+                /* border: solid red 1px; */
                 /* justify-content: center; */
                 /* width: 95%; */
                 position: relative;
-                padding: 10px;
-                grid-gap: 50px;
+                /* padding: 10px; */
+                grid-gap: 120px;
                 box-shadow: 0px 0px 0px 0px;
             }
             #all-remedio>div,
             #all-cosmeticos>div,
             #all-infantil>div,
             #all-suplemento>div {
+                /* display: grid;
+                grid-template-columns: auto; */
                 position: relative;
-                width: 100%;
+                width: 110%;
                 /* left: -20px; */
                 font-size: 12px;
-                /* padding: 20px; */
-                border: solid red 1px;
+                /* padding: 50px; */
+                /* grid-gap: 21px; */
+                /* border: solid red 1px; */
             }
             .remedio>img {
+                position: relative;
                 width: 150px;
+                /* left: -10px; */
+                /* padding: 10px; */
             }
             .remedio>p {
-                left: 50%;
+                /* left: 50%; */
                 font-size: 12px;
             }
             .remedio {

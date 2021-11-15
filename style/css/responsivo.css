@@ -1,18 +1,18 @@
-        @media only screen and (max-width:1200px) {
+        @media only screen and (max-width:500px) {
             #all-remedio,
             #all-cosmeticos,
             #all-infantil,
             #all-suplemento {
                 display: grid;
-                grid-template-columns: repeat(2, 160px);
+                grid-template-columns: repeat(2, 80px);
                 /* grid-template-rows: 300px; */
                 /* grid-template-rows: auto; */
-                /* border: solid red 1px; */
+                border: solid red 1px;
                 /* justify-content: center; */
                 /* width: 95%; */
                 position: relative;
                 padding: 2px;
-                grid-gap: 5px;
+                grid-gap: 50px;
             }
             #all-remedio>div,
             #all-cosmeticos>div,
@@ -27,6 +27,10 @@
             }
             .remedio>p {
                 font-size: 12px;
+            }
+            .remedio {
+                position: relative;
+                left: -30px;
             }
             .slide {
                 max-width: 100%;
@@ -85,9 +89,18 @@
                 display: none;
             }
             #carouselExampleFade {
-                width: 70vh;
-                left: 11vw;
+                width: 60vh;
+                left: 1vw;
                 transform: translateX(-8vw);
+                /* border-radius: 20px; */
+            }
+        }
+        
+        @media only screen and (max-width:700px) {
+            #carouselExampleFade {
+                width: 100%;
+                left: 0;
+                transform: translateX(0);
                 /* border-radius: 20px; */
             }
         }

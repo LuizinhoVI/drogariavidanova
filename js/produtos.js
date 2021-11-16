@@ -57,25 +57,26 @@
  }
 
  function cosmeticos() {
-     var open = document.getElementById('suplemento').style;
-     var abrir = document.getElementById('cosmeticos').style;
+     //  var open = document.getElementById('suplemento').style;
+     //  var abrir = document.getElementById('cosmeticos').style;
      var abrir1 = document.getElementById('cosmetico').style;
-     var paginas = document.getElementById('paginas').style;
+     //var paginas = document.getElementById('paginas').style;
 
-     var temas = document.getElementById('temas');
+     // var temas = document.getElementById('temas');
 
-     if (abrir.display == "none") {
-         abrir.display = "block";
+     if (abrir1.display == "none") {
+         //  abrir.display = "block";
          abrir1.display = "block";
-         paginas.display = "block";
-         temas.style.display = "block";
-         temas.innerHTML = "Cosmeticos";
+         //  paginas.display = "block";
+         // temas.style.display = "block";
+
 
      } else {
-         abrir.display = "none";
+         //  abrir.display = "none";
          abrir1.display = "none";
-         paginas.display = "none";
-         temas.style.display = "none";
+         //  paginas.display = "none";
+         // temas.style.display = "none";
+         alert()
      }
 
  }

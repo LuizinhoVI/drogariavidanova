@@ -1,4 +1,4 @@
-.btt-cor {
+.t-cor {
     list-style: square inside;
     text-align: center;
 }
@@ -138,19 +138,13 @@ ul>div {
     height: auto;
 }
 
-.geral>p {
-    border-radius: 10px;
-    border: 1px solid #3c7c52;
-    width: auto;
-    font-size: 19px;
-}
 
-.geral>p:hover {
+/* .geral>p:hover {
     background: #3c7e53;
     box-shadow: 0px 0px 10px 0px #3c7c52;
     cursor: pointer;
     color: #ffffff;
-}
+} */
 
 a {
     text-decoration: none !important;

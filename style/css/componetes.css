@@ -27,7 +27,7 @@ li {
 .remedio>img:hover {
     transform: scale(1.2);
     top: -5px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .remedio>img {
@@ -212,4 +212,12 @@ a {
     position: relative;
     top: 30px;
     height: 50px;
+}
+
+.cabelo-bioex {
+    display: none;
+}
+
+.maquiagem {
+    display: none;
 }

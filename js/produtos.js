@@ -57,35 +57,31 @@
  }
 
  function cosmeticos() {
-     //  var open = document.getElementById('suplemento').style;
-     //  var abrir = document.getElementById('cosmeticos').style;
-     var abrir1 = document.getElementById('cosmetico').style;
-     //var paginas = document.getElementById('paginas').style;
+     var abrir = document.getElementById('cosmetico').style;
 
-     // var temas = document.getElementById('temas');
-
-     if (abrir1.display == "none") {
-         //  abrir.display = "block";
-         abrir1.display = "block";
-         //  paginas.display = "block";
-         // temas.style.display = "block";
-
+     if (abrir.display == "none") {
+         abrir.display = "block";
 
      } else {
-         //  abrir.display = "none";
-         abrir1.display = "none";
-         //  paginas.display = "none";
-         // temas.style.display = "none";
-         alert()
+
+         abrir.display = "none";
+
      }
 
  }
 
  function cabelo() {
-     var abrir = document.getElementById('cabelo').style;
-     if (abrir.display == "none") {
-         abrir.display = "block";
-     } else { abrir.display = "none"; }
+     alert()
+     var abrir = document.getElementByClassName('cabelo-haskel').style;
+     var abrir1 = document.getElementByClassName('cabelo-bioex').style;
+     var abrir2 = document.getElementByClassName('maquiagem').style;
+
+     abrir.display = "block";
+     abrir1.display = "block";
+
+
+     abrir2.display = "none";
+
 
  }
 

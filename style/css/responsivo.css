@@ -36,8 +36,9 @@
                 /* padding: 10px; */
             }
             .remedio>p {
-                /* left: 50%; */
+                left: 50%;
                 font-size: 12px;
+                text-align: center;
             }
             .remedio {
                 position: relative;

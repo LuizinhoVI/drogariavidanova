@@ -24,37 +24,6 @@
 
  }
 
- function voxx() {
-     var abrir = document.getElementById('voxx').style;
-     if (abrir.display == "none") {
-         abrir.display = "block";
-     } else { abrir.display = "none"; }
- }
-
-
- function maquiagem() {
-     var abrir = document.getElementById('cosmetico').style;
-     if (abrir.display == "none") {
-         abrir.display = "block";
-     } else { abrir.display = "none"; }
-
- }
-
- function rosto() {
-     var abrir = document.getElementById('rosto').style;
-     if (abrir.display == "none") {
-         abrir.display = "block";
-     } else { abrir.display = "none"; }
-
- }
-
- function volt() {
-     var abrir = document.getElementById('volt').style;
-     if (abrir.display == "none") {
-         abrir.display = "block";
-     } else { abrir.display = "none"; }
-
- }
 
  function cosmeticos() {
      var abrir = document.getElementById('cosmetico').style;
@@ -94,41 +63,25 @@
  }
 
  function medicamentos() {
-     var abrir = document.getElementById('medicamentos').style;
+     // var abrir = document.getElementById('medicamentos').style;
      var remedio = document.getElementById('remedio').style;
-     var temas = document.getElementById('temas');
+     //var temas = document.getElementById('temas');
      var fechar = document.getElementsByClassName('fechar');
 
 
-     if (abrir.display == "none") {
-         abrir.display = "block";
+     if (remedio.display == "none") {
+
          remedio.display = "block";
-         temas.innerHTML = "REMEDIOS";
-         temas.style.display = "block";
+
 
      } else {
-         abrir.display = "none";
-         temas.style.display = "none";
+         fechar.display = "none";
+
          remedio.display = "none";
      }
 
  }
 
- function olho() {
-     var abrir = document.getElementById('olho').style;
-     if (abrir.display == "none") {
-         abrir.display = "block";
-     } else { abrir.display = "none"; }
-
- }
-
- function labio() {
-     var abrir = document.getElementById('labio').style;
-     if (abrir.display == "none") {
-         abrir.display = "block";
-     } else { abrir.display = "none"; }
-
- }
 
  function areainfantil() {
      var abrir = document.getElementById('infantil').style;

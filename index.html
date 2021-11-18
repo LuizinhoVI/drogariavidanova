@@ -68,9 +68,9 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active " href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Medicamentos</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
-                            <li><a class="dropdown-item" onclick="medicamentos()">Todos de A-Z</a></li>
-                            <li>
-                                <a class="dropdown-item" href="">Genéricos de a-z</a>
+                            <li><a class="dropdown-item">Todos de A-Z</a></li>
+                            <li onclick="medicamentos()">
+                                <a class="dropdown-item">Genéricos de a-z</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="#">Anti-inflamatórios</a>
@@ -106,9 +106,9 @@
                     <li class="nav-item dropdown" onclick="">
                         <a class="nav-link dropdown-toggle active" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Cosméticos</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
-                            <li><a class="dropdown-item"> Maquiagem</a></li>
+                            <li onclick="maquiagem()"><a class="dropdown-item"> Maquiagem</a></li>
                             <li onclick="cabelo()">
-                                <a class="dropdown-item"> Cabelo</a>
+                                <a class="dropdown-item" href="#"> Cabelo</a>
                             </li>
                             <li onclick="perfume()">
                                 <a class="dropdown-item">Perfume</a>
@@ -120,10 +120,11 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Vitaminas e Suplementos</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
-                            <li><a class="dropdown-item" href="">Vitaminas</a></li>
                             <li>
                                 <a class="dropdown-item" onclick="suplementos()">Suplementos</a>
                             </li>
+                            <li><a class="dropdown-item" href="">Vitaminas</a></li>
+
 
                         </ul>
                     </li>
@@ -240,7 +241,7 @@
 
         </div>
 
-        <div class="divider" style="background: #E0E0E0;"></div>
+        <div class="divider" style="background: #E0E0E0;" id="sobre"></div>
 
 
         <div class="w3-row w3-padding-64">
@@ -249,7 +250,7 @@
                 <div align="center" class="inform">
 
 
-                    <div align="center" id="sobre"> Manutenção... </div>
+                    <div align="center"> Manutenção... </div>
 
 
 

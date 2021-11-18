@@ -188,7 +188,7 @@ a {
 #all-cosmeticos>div,
 #all-infantil>div,
 #all-suplemento>div {
-    display: block;
+    display: ;
 }
 
 #all-remedio,
@@ -216,10 +216,6 @@ a {
 
 li>a {
     cursor: pointer;
-}
-
-.perfume {
-    display: block !important;
 }
 
 .localiza {

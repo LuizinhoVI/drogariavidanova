@@ -18,25 +18,56 @@
  }
 
 
- function cosmeticos() {
-     var abrir = document.getElementById('cosmetico').style;
+ //--********************************* área dos cosméticos
 
-     if (abrir.display == "none") {
-         abrir.display = "block";
+ function maquiagem() {
+     var abrir0 = document.getElementById("cosmetico").style;
+     var mostrar = document.getElementsByClassName('maquiagem');
+     var ocultar1 = document.getElementsByClassName('perfume');
+     var ocultar2 = document.getElementsByClassName('cabelo-haskel');
+     var ocultar3 = document.getElementsByClassName('cabelo-bioex');
 
-     } else {
+     abrir0.display = "block";
 
-         abrir.display = "none";
+     var fechar = document.getElementsByClassName('fechar');
+     fechar[0].style.display = "none";
+     fechar[1].style.display = "none";
+     fechar[3].style.display = "none";
 
+
+
+
+     for (var i = 0; i < mostrar.length; i++) {
+
+         mostrar[i].style.display = "block";
      }
+
+
+
+     for (var i = 0; i < ocultar1.length; i++) {
+
+         ocultar1[i].style.display = "none";
+     }
+     for (var i = 0; i < ocultar2.length; i++) {
+
+         ocultar2[i].style.display = "none";
+     }
+     for (var i = 0; i < ocultar3.length; i++) {
+
+         ocultar3[i].style.display = "none";
+     }
+
 
  }
 
  function cabelo() {
 
      var abrir0 = document.getElementById("cosmetico").style;
-     var abrir1 = document.getElementsByClassName('cabelo-bioex');
-     var abrir2 = document.getElementsByClassName('cabelo-haskel');
+
+     var mostrar1 = document.getElementsByClassName('cabelo-haskel');
+     var mostrar2 = document.getElementsByClassName('cabelo-bioex');
+     var ocultar1 = document.getElementsByClassName('perfume');
+     var ocultar2 = document.getElementsByClassName('maquiagem');
 
      abrir0.display = "block";
      var fechar = document.getElementsByClassName('fechar');
@@ -47,13 +78,22 @@
 
 
 
-     for (var i = 0; i < abrir2.length; i++) {
+     for (var i = 0; i < mostrar1.length; i++) {
 
-         abrir2[i].style.display = "block";
+         mostrar1[i].style.display = "block";
      }
-     for (var i = 0; i < abrir1.length; i++) {
+     for (var i = 0; i < mostrar2.length; i++) {
 
-         abrir1[i].style.display = "block";
+         mostrar2[i].style.display = "block";
+     }
+
+     for (var i = 0; i < ocultar1.length; i++) {
+
+         ocultar1[i].style.display = "none";
+     }
+     for (var i = 0; i < ocultar2.length; i++) {
+
+         ocultar2[i].style.display = "none";
      }
 
 
@@ -64,26 +104,44 @@
  function perfume() {
 
      var abrir0 = document.getElementById("cosmetico").style;
-     var abrir1 = document.getElementsByClassName('perfume');
+     //ocultar as categorias que não precisamos
+     var mostrar = document.getElementsByClassName('perfume');
+     var ocultar = document.getElementsByClassName('maquiagem');
+     var ocultar1 = document.getElementsByClassName('cabelo-haskel');
+     var ocultar2 = document.getElementsByClassName('cabelo-bioex');
+
      var fechar = document.getElementsByClassName('fechar');
 
      abrir0.display = "block";
 
-     for (var i = 0; i < abrir1.length; i++) {
+     for (var i = 0; i < mostrar.length; i++) {
 
-         abrir1[i].style.display = "block";
+         mostrar[i].style.display = "block";
+     }
+     for (var i = 0; i < ocultar.length; i++) {
+
+         ocultar[i].style.display = "none";
+     }
+     for (var i = 0; i < ocultar1.length; i++) {
+
+         ocultar1[i].style.display = "none";
+     }
+     for (var i = 0; i < ocultar2.length; i++) {
+
+         ocultar2[i].style.display = "none";
      }
 
+     //mostrar só os perfumes
      fechar[0].style.display = "none";
      fechar[1].style.display = "none";
      fechar[3].style.display = "none";
 
 
-     alert()
+
 
  }
 
-
+ // *******************-----------------------------------------
 
 
 
@@ -132,6 +190,8 @@
      fechar[1].style.display = "none";
      fechar[2].style.display = "none";
 
+
+     alert("nosso bebê")
  }
 
 

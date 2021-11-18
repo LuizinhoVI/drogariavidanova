@@ -1,24 +1,17 @@
  function suplementos() {
-     var abrir = document.getElementById('massa').style;
-     var abrir1 = document.getElementById('suplemento').style;
-     var paginas = document.getElementById('paginas').style;
-     var temas = document.getElementById('temas');
-     var fechar = document.getElementById('suplementos');
 
-     if (abrir.display == "none") {
-         abrir.display = "block";
+     var abrir1 = document.getElementById('suplemento').style;
+
+
+     if (abrir1.display == "none") {
+
          abrir1.display = "block";
-         paginas.display = "block"
-         temas.style.display = "block";
-         temas.innerHTML = "Suplementos";
-         fechar.style.display = "block"
+
 
      } else {
-         abrir.display = "none";
+
          abrir1.display = "none";
-         paginas.display = "none";
-         temas.style.display = "none";
-         fechar.style.display = "none";
+
 
      }
 
@@ -84,16 +77,16 @@
 
 
  function areainfantil() {
-     var abrir = document.getElementById('infantil').style;
-     var abrir1 = document.getElementById('areainfantil').style;
+     // var abrir = document.getElementById('infantil').style;
+     var abri1 = document.getElementById('areainfantil').style;
 
 
-     if (abrir.display == "none") {
-         abrir.display = "block"
-         abrir1.display = "block"
+     if (abri1.display == "none") {
+
+         abri1.display = "block"
      } else {
-         abrir.display = "none"
-         abrir1.display = "none"
+
+         abri1.display = "none"
      }
  }
 

@@ -1,19 +1,19 @@
  function suplementos() {
 
      var abrir1 = document.getElementById('suplemento').style;
+     abrir1.display = "block";
 
 
-     if (abrir1.display == "none") {
-
-         abrir1.display = "block";
 
 
-     } else {
-
-         abrir1.display = "none";
 
 
-     }
+     var fechar = document.getElementsByClassName('fechar');
+     fechar[1].style.display = "none";
+     fechar[2].style.display = "none";
+     fechar[3].style.display = "none";
+     alert("Victoria <3 ")
+
 
  }
 
@@ -39,7 +39,10 @@
      var abrir2 = document.getElementsByClassName('cabelo-haskel');
 
      abrir0.display = "block";
-
+     var fechar = document.getElementsByClassName('fechar');
+     fechar[0].style.display = "none";
+     fechar[1].style.display = "none";
+     fechar[3].style.display = "none";
 
 
 
@@ -48,6 +51,33 @@
 
          abrir2[i].style.display = "block";
      }
+     for (var i = 0; i < abrir1.length; i++) {
+
+         abrir1[i].style.display = "block";
+     }
+
+
+
+
+ }
+
+ function perfume() {
+
+     var abrir0 = document.getElementById("cosmetico").style;
+     var abrir1 = document.getElementsByClassName('perfume');
+
+
+     abrir0.display = "block";
+
+     var fechar = document.getElementsByClassName('fechar');
+     fechar[0].style.display = "none";
+     fechar[1].style.display = "none";
+     fechar[3].style.display = "none";
+
+
+
+
+
      for (var i = 0; i < abrir1.length; i++) {
 
          abrir1[i].style.display = "block";
@@ -83,19 +113,7 @@
  }
 
 
- function areainfantil() {
-     // var abrir = document.getElementById('infantil').style;
-     var abri1 = document.getElementById('areainfantil').style;
 
-
-     if (abri1.display == "none") {
-
-         abri1.display = "block"
-     } else {
-
-         abri1.display = "none"
-     }
- }
  //  rea do bebê
  function mamentacao() {
 
@@ -116,7 +134,10 @@
      }
 
 
-
+     var fechar = document.getElementsByClassName('fechar');
+     fechar[0].style.display = "none";
+     fechar[1].style.display = "none";
+     fechar[2].style.display = "none";
 
  }
 

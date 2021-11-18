@@ -49,9 +49,21 @@
 
  function maquiagem() {
      var abrir = document.getElementById('pro-maquiagem').style;
+     var fechar1 = document.getElementById('remedio').style;
+     var fechar2 = document.getElementById('suplemento').style;
+     var fechar3 = document.getElementById('areainfantil').style;
+
+
+
      if (abrir.display == "none") {
          abrir.display = "block";
-     } else { abrir.display = "none"; }
+
+     } else {
+         abrir.display = "none";
+         fechar1.display = "none";
+         fechar2.display = "none";
+         fechar3.display = "none";
+     }
 
  }
 
@@ -68,9 +80,9 @@
 
 
      } else {
+         remedio.display = "none";
          fechar.display = "none";
 
-         remedio.display = "none";
      }
 
  }

@@ -173,7 +173,7 @@ a {
 }
 
 .inform>div {
-    box-shadow: 0px 0px 5px 0px;
+    /* box-shadow: 0px 0px 5px 0px; */
     border-radius: 10px;
     font-size: 18px;
 }
@@ -220,4 +220,19 @@ li>a {
 
 .maquiagem {
     display: none;
+}
+
+.localiza {
+    top: -80px;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    /* color: black; */
+}
+
+.sobre {
+    position: relative;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    /* color: black; */
 }

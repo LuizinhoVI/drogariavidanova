@@ -20,7 +20,7 @@ li {
 .remedio {
     padding: 10px;
     text-align: center;
-    display: block;
+    /* display: block; */
     /* border: solid 1px rgb(65, 233, 31); */
 }
 
@@ -214,10 +214,10 @@ a {
     height: 50px;
 }
 
-.cabelo-bioex {
-    display: none;
+li>a {
+    cursor: pointer;
 }
 
 .maquiagem {
-    display: block;
+    display: none;
 }

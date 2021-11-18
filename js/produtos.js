@@ -33,39 +33,34 @@
  }
 
  function cabelo() {
-     alert()
-     var abrir = document.getElementByClassName('cabelo-haskel').style;
-     var abrir1 = document.getElementByClassName('cabelo-bioex').style;
-     var abrir2 = document.getElementByClassName('maquiagem').style;
 
-     abrir.display = "block";
-     abrir1.display = "block";
+     var abrir0 = document.getElementById("cosmetico").style;
+     var abrir1 = document.getElementsByClassName('cabelo-bioex');
+     var abrir2 = document.getElementsByClassName('cabelo-haskel');
 
-
-     abrir2.display = "none";
-
-
- }
-
- function maquiagem() {
-     var abrir = document.getElementById('pro-maquiagem').style;
-     var fechar1 = document.getElementById('remedio').style;
-     var fechar2 = document.getElementById('suplemento').style;
-     var fechar3 = document.getElementById('areainfantil').style;
+     abrir0.display = "block";
 
 
 
-     if (abrir.display == "none") {
-         abrir.display = "block";
 
-     } else {
-         abrir.display = "none";
-         fechar1.display = "none";
-         fechar2.display = "none";
-         fechar3.display = "none";
+
+     for (var i = 0; i < abrir2.length; i++) {
+
+         abrir2[i].style.display = "block";
+     }
+     for (var i = 0; i < abrir1.length; i++) {
+
+         abrir1[i].style.display = "block";
      }
 
+
+
+
  }
+
+
+
+
 
  function medicamentos() {
      // var abrir = document.getElementById('medicamentos').style;
@@ -101,7 +96,29 @@
          abri1.display = "none"
      }
  }
+ //  rea do bebê
+ function mamentacao() {
 
+     var abrir0 = document.getElementById("areainfantil").style;
+     var abrir1 = document.getElementsByClassName('amamentacao');
+
+
+     abrir0.display = "block";
+
+
+
+
+
+
+     for (var i = 0; i < abrir1.length; i++) {
+
+         abrir1[i].style.display = "block";
+     }
+
+
+
+
+ }
 
 
 

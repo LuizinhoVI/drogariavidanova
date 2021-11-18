@@ -218,8 +218,8 @@ li>a {
     cursor: pointer;
 }
 
-.maquiagem {
-    display: none;
+.perfume {
+    display: block !important;
 }
 
 .localiza {

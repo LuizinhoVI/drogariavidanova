@@ -65,26 +65,21 @@
 
      var abrir0 = document.getElementById("cosmetico").style;
      var abrir1 = document.getElementsByClassName('perfume');
-
+     var fechar = document.getElementsByClassName('fechar');
 
      abrir0.display = "block";
-
-     var fechar = document.getElementsByClassName('fechar');
-     fechar[0].style.display = "none";
-     fechar[1].style.display = "none";
-     fechar[3].style.display = "none";
-
-
-
-
 
      for (var i = 0; i < abrir1.length; i++) {
 
          abrir1[i].style.display = "block";
      }
 
+     fechar[0].style.display = "none";
+     fechar[1].style.display = "none";
+     fechar[3].style.display = "none";
 
 
+     alert()
 
  }
 
@@ -94,21 +89,19 @@
 
  function medicamentos() {
      // var abrir = document.getElementById('medicamentos').style;
-     var remedio = document.getElementById('remedio').style;
-     //var temas = document.getElementById('temas');
-     var fechar = document.getElementsByClassName('fechar');
+     var abrir0 = document.getElementById("remedio").style;
+     var abrir1 = document.getElementsByClassName('amamentacao');
 
+     abrir0.display = "block";
 
-     if (remedio.display == "none") {
-
-         remedio.display = "block";
-
-
-     } else {
-         remedio.display = "none";
-         fechar.display = "none";
-
+     for (var i = 0; i < abrir1.length; i++) {
+         abrir1[i].style.display = "block";
      }
+
+     var fechar = document.getElementsByClassName('fechar');
+     fechar[0].style.display = "none";
+     fechar[3].style.display = "none";
+     fechar[2].style.display = "none";
 
  }
 

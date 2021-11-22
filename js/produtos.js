@@ -12,7 +12,7 @@
      fechar[1].style.display = "none";
      fechar[2].style.display = "none";
      fechar[3].style.display = "none";
-     alert("Victoria <3 ")
+
 
 
  }
@@ -191,7 +191,7 @@
      fechar[2].style.display = "none";
 
 
-     alert("nosso bebê")
+
  }
 
 

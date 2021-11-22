@@ -70,17 +70,17 @@
                 /* left: 10px; */
             }
             .entrada {
-                position: fixed;
-                top: 80px;
-                left: 0;
-                width: 100%;
+                /* position: fixed; */
+                /* top: 80px; */
+                /* left: 0; */
+                /* width: 100%; */
             }
-            #entrada {
+            /* #entrada {
                 top: 21px;
                 left: 10vw;
                 width: 70%;
                 display: none;
-            }
+            } */
             .inform {
                 grid-template-columns: auto;
                 grid-template-rows: auto;

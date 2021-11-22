@@ -124,12 +124,38 @@
             #contato {
                 font-size: 13px;
             }
+            #local {
+                /* border: solid red 1px; */
+                position: relative;
+                top: -180px;
+            }
+            #local>h1 {
+                position: relative;
+                top: -0px;
+                font-size: 30px;
+            }
+            .tamanho {
+                position: relative;
+                height: 180px;
+            }
+            .divider {
+                height: 20px;
+            }
+            .sobre {
+                font-size: 30px;
+            }
+            iframe {
+                height: 200px;
+                border: green 1px solid;
+                box-shadow: 0px 0px 10px 0px;
+            }
         }
         
         @media only screen and (max-width:700px) {
             #carouselExampleFade {
                 width: 100%;
                 left: 0;
+                top: -10px;
                 transform: translateX(0);
                 /* border-radius: 20px; */
             }
